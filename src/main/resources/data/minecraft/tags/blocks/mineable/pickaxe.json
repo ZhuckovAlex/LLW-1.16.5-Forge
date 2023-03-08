@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "llw:magic_lantern",
+    "llw:mossy_stone",
+    "llw:cracked_stone",
+    "llw:elf_stone",
+    "llw:elf_stone_stairs",
+    "llw:elf_stone_slab",
+    "llw:elf_stone_bricks",
+    "llw:chiseled_elf_stone_bricks",
+    "llw:elf_stone_bricks_stairs",
+    "llw:elf_stone_bricks_slab",
+    "llw:mossy_elf_stone_bricks",
+    "llw:stairs_mossy_elf_stone_bricks",
+    "llw:slab_mossy_elf_stone_bricks",
+    "llw:cracked_elf_stone_bricks",
+    "llw:stairs_cracked_elf_stone_bricks",
+    "llw:slab_cracked_elf_stone_bricks"
+  ]
+}

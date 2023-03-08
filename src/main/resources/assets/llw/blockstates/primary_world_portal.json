@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "llw:block/primary_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "llw:block/primary_world_portal_ns"
+    }
+  }
+}

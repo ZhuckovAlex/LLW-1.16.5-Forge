@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/cian_slab"
+    },
+    "type=double": {
+      "model": "llw:block/cian_planks"
+    },
+    "type=top": {
+      "model": "llw:block/cian_slab_top"
+    }
+  }
+}

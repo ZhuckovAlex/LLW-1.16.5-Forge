@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "llw:dark_birch_stairs",
+    "llw:brandrhoss_stairs",
+    "llw:mirtaliy_stairs",
+    "llw:elengar_stairs",
+    "llw:soaked_in_cinnabar_elengar_stairs",
+    "llw:soaked_with_copper_sediment_elengar_stairs",
+    "llw:azure_hard_bark_stairs"
+  ]
+}

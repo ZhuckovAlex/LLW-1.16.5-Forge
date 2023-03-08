@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "llw:block/ancient_elf_stone",
+    "side": "llw:block/bookshelf_primary_world"
+  }
+}

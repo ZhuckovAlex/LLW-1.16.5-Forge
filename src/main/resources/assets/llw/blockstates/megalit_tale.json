@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "":
+    [
+      {"model": "llw:block/megalit_tale"}
+    ]
+  }
+}

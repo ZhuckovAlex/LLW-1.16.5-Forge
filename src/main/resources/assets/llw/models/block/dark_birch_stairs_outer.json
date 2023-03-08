@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "llw:block/dark_birch_planks",
+    "top": "llw:block/dark_birch_planks",
+    "side": "llw:block/dark_birch_planks"
+  }
+}

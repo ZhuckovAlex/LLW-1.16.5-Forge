@@ -1,0 +1,780 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=inner_left":
+            [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "y": 270,
+      "uvlock": true
+    },
+              {
+                "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+                "y": 270,
+                "uvlock": true
+              },
+              {
+                "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+                "y": 270,
+                "uvlock": true
+              }
+    ],
+
+    "facing=east,half=bottom,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner"
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner"
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner"
+      }
+
+    ],
+
+    "facing=east,half=bottom,shape=outer_left":
+            [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "y": 270,
+      "uvlock": true
+    },
+              {
+                "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+                "y": 270,
+                "uvlock": true
+              },
+              {
+                "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+                "y": 270,
+                "uvlock": true
+              }
+    ],
+
+    "facing=east,half=bottom,shape=outer_right":
+        [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer"
+    },
+          {
+            "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer"
+          },
+          {
+            "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer"
+          }
+
+    ],
+
+    "facing=east,half=bottom,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles"
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1"
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2"
+      }
+    ],
+
+    "facing=east,half=top,shape=inner_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "uvlock": true
+      }
+    ],
+
+    "facing=east,half=top,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+
+    "facing=east,half=top,shape=outer_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "x": 180,
+        "uvlock": true
+      }
+    ],
+
+    "facing=east,half=top,shape=outer_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=east,half=top,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles",
+      "x": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2",
+        "x": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=bottom,shape=inner_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=bottom,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "y": 270,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "y": 270,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=bottom,shape=outer_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=bottom,shape=outer_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "y": 270,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "y": 270,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=bottom,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles",
+      "y": 270,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1",
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2",
+        "y": 270,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=top,shape=inner_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=top,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=top,shape=outer_left":
+            [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+              {
+                "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+                "x": 180,
+                "y": 270,
+                "uvlock": true
+              },
+              {
+                "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+                "x": 180,
+                "y": 270,
+                "uvlock": true
+              }
+              ],
+
+    "facing=north,half=top,shape=outer_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "x": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "x": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=north,half=top,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=bottom,shape=inner_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner"
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner"
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner"
+      }
+      ],
+
+    "facing=south,half=bottom,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=bottom,shape=outer_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer"
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer"
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer"
+      }
+      ],
+
+    "facing=south,half=bottom,shape=outer_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=bottom,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles",
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2",
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=top,shape=inner_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=top,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=top,shape=outer_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=top,shape=outer_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=south,half=top,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=bottom,shape=inner_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=bottom,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=bottom,shape=outer_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "y": 90,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "y": 90,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "y": 90,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=bottom,shape=outer_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=bottom,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles",
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1",
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2",
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=top,shape=inner_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=top,shape=inner_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_inner",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=top,shape=outer_left":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=top,shape=outer_right":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles_outer",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1_outer",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2_outer",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+      ],
+
+    "facing=west,half=top,shape=straight":
+    [
+    {
+      "model": "llw:block/a_stairs_of_ancient_elven_tiles",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles1",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      },
+      {
+        "model": "llw:block/a_stairs_of_ancient_elven_tiles2",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+      ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "llw:soaked_with_copper_sediment_elengar_planks"
+    }
+  ],
+  "result": {
+    "item": "llw:soaked_with_copper_sediment_elengar_button"
+  }
+}

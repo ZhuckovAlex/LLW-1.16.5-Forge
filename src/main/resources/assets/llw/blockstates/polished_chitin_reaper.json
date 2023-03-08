@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":
+    [
+    {"model": "llw:block/polished_chitin_reaper"},
+    {"model": "llw:block/polished_chitin_reaper2"},
+    {"model": "llw:block/polished_chitin_reaper3"}
+    ]
+  }
+}

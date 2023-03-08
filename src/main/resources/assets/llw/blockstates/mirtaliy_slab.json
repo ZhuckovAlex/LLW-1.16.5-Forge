@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/mirtaliy_slab"
+    },
+    "type=double": {
+      "model": "llw:block/mirtaliy_planks"
+    },
+    "type=top": {
+      "model": "llw:block/mirtaliy_slab_top"
+    }
+  }
+}

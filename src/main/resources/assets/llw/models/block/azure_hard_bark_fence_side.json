@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "llw:block/azure_hard_bark_planks"
+  }
+}

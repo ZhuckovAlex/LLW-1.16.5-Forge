@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "llw:block/ancient_elf_bricks",
+    "top": "llw:block/ancient_elf_bricks",
+    "side": "llw:block/ancient_elf_bricks"
+  }
+}

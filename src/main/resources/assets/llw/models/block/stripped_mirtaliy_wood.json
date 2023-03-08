@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "llw:block/stripped_mirtaliy_log",
+    "side": "llw:block/stripped_mirtaliy_log"
+  }
+}

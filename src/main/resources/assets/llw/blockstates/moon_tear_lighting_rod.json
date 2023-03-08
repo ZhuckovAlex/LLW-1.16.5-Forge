@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "llw:block/moon_tear_lighting_rod", "y": 180},
+    "facing=south": { "model": "llw:block/moon_tear_lighting_rod", "y": 0 },
+    "facing=east": { "model": "llw:block/moon_tear_lighting_rod"  ,"y": 270},
+    "facing=west": { "model": "llw:block/moon_tear_lighting_rod", "y": 90}
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "llw:block/flame_cristal",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "llw:block/flame_cristal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "llw:block/flame_cristal",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "llw:block/flame_cristal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "llw:block/flame_cristal"
+    },
+    "facing=west": {
+      "model": "llw:block/flame_cristal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

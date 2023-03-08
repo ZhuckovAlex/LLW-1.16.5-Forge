@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/elengar_slab"
+    },
+    "type=double": {
+      "model": "llw:block/elengar_planks"
+    },
+    "type=top": {
+      "model": "llw:block/elengar_slab_top"
+    }
+  }
+}

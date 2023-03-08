@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "llw:block/farmland_primary_world"
+    },
+    "moisture=1": {
+      "model": "llw:block/farmland_primary_world"
+    },
+    "moisture=2": {
+      "model": "llw:block/farmland_primary_world"
+    },
+    "moisture=3": {
+      "model": "llw:block/farmland_primary_world"
+    },
+    "moisture=4": {
+      "model": "llw:block/farmland_primary_world"
+    },
+    "moisture=5": {
+      "model": "llw:block/farmland_primary_world"
+    },
+    "moisture=6": {
+      "model": "llw:block/farmland_primary_world"
+    },
+    "moisture=7": {
+      "model": "llw:block/farmland_primary_world_moist"
+    }
+  }
+}

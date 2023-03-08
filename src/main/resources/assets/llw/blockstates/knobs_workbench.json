@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "llw:block/knobs_workbench"
+    },
+    "facing=west": {
+      "model": "llw:block/knobs_workbench",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "llw:block/knobs_workbench",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "llw:block/knobs_workbench",
+      "y": 270
+    }
+  }
+}

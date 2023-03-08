@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "llw:azure_hard_bark_planks"
+    }
+  ],
+  "result": {
+    "item": "llw:azure_hard_bark_button"
+  }
+}

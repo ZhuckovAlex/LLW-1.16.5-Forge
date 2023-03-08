@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":
+    [
+    {"model": "llw:block/a_block_of_ancient_elven_tiles" },
+    {"model": "llw:block/a_block_of_ancient_elven_tiles1"},
+    {"model": "llw:block/a_block_of_ancient_elven_tiles2"}
+    ]
+  }
+}

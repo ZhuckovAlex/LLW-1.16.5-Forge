@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "llw:block/cian_planks",
+    "top": "llw:block/cian_planks",
+    "side": "llw:block/cian_planks"
+  }
+}

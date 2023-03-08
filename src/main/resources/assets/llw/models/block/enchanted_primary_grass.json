@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "llw:block/enchanted_primary_grass"
+  }
+}

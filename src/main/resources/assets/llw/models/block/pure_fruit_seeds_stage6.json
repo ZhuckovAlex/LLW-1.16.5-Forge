@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "llw:block/pure_fruit_seeds_stage6"
+  }
+}

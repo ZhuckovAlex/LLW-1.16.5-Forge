@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "down": "llw:block/primary_grass_block_side",
+        "up": "llw:block/primary_grass_block_top",
+        "north": "llw:block/primary_grass_side_block",
+        "east": "llw:block/primary_grass_side_block",
+        "south": "llw:block/primary_grass_side_block",
+        "west": "llw:block/primary_grass_side_block",
+        "particle": "llw:block/primary_grass_block_side"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "llw:block/alchemy_table"
+    },
+    "facing=west": {
+      "model": "llw:block/alchemy_table",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "llw:block/alchemy_table",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "llw:block/alchemy_table",
+      "y": 270
+    }
+  }
+}

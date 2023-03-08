@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "llw:block/chitin_reaper_column",
+    "side": "llw:block/chitin_reaper_column_horizontal2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "llw:block/magic_lantern"
+    },
+    "hanging=true": {
+      "model": "llw:block/magic_lantern_hanging"
+    }
+  }
+}

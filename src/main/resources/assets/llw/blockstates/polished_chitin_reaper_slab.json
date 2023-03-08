@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "type=bottom":[
+      {"model": "llw:block/polished_chitin_reaper_slab" },{"model": "llw:block/polished_chitin_reaper_slab2" },{"model": "llw:block/polished_chitin_reaper_slab3" }
+    ],
+
+    "type=double":
+    [
+      {"model": "llw:block/polished_chitin_reaper" },{"model": "llw:block/polished_chitin_reaper2" },{"model": "llw:block/polished_chitin_reaper3" }
+    ],
+
+    "type=top":
+    [
+      { "model": "llw:block/polished_chitin_reaper_slab_top"},{ "model": "llw:block/polished_chitin_reaper_slab2_top"},{ "model": "llw:block/polished_chitin_reaper_slab3_top"}
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "llw:soaked_with_copper_sediment_elengar_pressure_plate"
+        }
+      ]
+    }
+  ]
+}

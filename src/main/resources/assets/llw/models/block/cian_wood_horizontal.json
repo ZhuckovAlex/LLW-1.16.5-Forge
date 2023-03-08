@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "llw:block/cian_log",
+    "side": "llw:block/cian_log"
+  }
+}

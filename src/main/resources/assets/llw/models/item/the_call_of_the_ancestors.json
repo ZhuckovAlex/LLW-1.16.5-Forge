@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "llw:block/the_call_of_the_ancestors"
+  }
+}

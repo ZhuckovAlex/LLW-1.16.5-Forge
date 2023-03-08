@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/slab_cracked_elf_stone_bricks"
+    },
+    "type=double": {
+      "model": "llw:block/cracked_elf_stone_bricks"
+    },
+    "type=top": {
+      "model": "llw:block/slab_cracked_elf_stone_bricks_top"
+    }
+  }
+}

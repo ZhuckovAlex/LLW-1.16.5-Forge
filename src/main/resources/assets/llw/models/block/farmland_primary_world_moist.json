@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_farmland",
+  "textures": {
+    "dirt": "llw:block/ancient_grass_block_side",
+    "top": "llw:block/moist_farmland_primary"
+  }
+}

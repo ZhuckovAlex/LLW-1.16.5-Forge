@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/azure_hard_bark_slab"
+    },
+    "type=double": {
+      "model": "llw:block/azure_hard_bark_planks"
+    },
+    "type=top": {
+      "model": "llw:block/azure_hard_bark_slab_top"
+    }
+  }
+}

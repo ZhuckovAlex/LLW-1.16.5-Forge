@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/brandrhoss_slab"
+    },
+    "type=double": {
+      "model": "llw:block/brandrhoss_planks"
+    },
+    "type=top": {
+      "model": "llw:block/brandrhoss_slab_top"
+    }
+  }
+}

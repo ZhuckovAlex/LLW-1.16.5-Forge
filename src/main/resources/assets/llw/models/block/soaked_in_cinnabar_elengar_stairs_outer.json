@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "llw:block/soaked_in_cinnabar_elengar_planks",
+    "top": "llw:block/soaked_in_cinnabar_elengar_planks",
+    "side": "llw:block/soaked_in_cinnabar_elengar_planks"
+  }
+}

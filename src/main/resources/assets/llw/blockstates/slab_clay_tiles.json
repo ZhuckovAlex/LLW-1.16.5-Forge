@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/slab_clay_tiles"
+    },
+    "type=double": {
+      "model": "llw:block/clay_tiles"
+    },
+    "type=top": {
+      "model": "llw:block/slab_clay_tiles_top"
+    }
+  }
+}

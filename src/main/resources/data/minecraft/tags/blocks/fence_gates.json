@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "llw:dark_birch_fence_gate",
+    "llw:brandrhoss_fence_gate",
+    "llw:mirtaliy_fence_gate",
+    "llw:elengar_fence_gate",
+    "llw:soaked_in_cinnabar_elengar_fence_gate",
+    "llw:soaked_with_copper_sediment_elengar_fence_gate",
+    "llw:azure_hard_bark_fence_gate"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/soaked_with_copper_sediment_elengar_slab"
+    },
+    "type=double": {
+      "model": "llw:block/soaked_with_copper_sediment_elengar_planks"
+    },
+    "type=top": {
+      "model": "llw:block/soaked_with_copper_sediment_elengar_slab_top"
+    }
+  }
+}

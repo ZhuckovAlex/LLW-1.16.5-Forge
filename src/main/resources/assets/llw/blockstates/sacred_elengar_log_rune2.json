@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "llw:block/sacred_elengar_log_rune2_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "llw:block/sacred_elengar_log_rune2"
+    },
+    "axis=z": {
+      "model": "llw:block/sacred_elengar_log_rune2_horizontal",
+      "x": 90
+    }
+  }
+}

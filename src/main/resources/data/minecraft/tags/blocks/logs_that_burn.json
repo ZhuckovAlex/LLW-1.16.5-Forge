@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:dark_birch_logs",
+    "#minecraft:brandrhoss_logs",
+    "#minecraft:mirtaliy_logs",
+    "#minecraft:liana_logs",
+    "#minecraft:elengar_logs",
+    "#minecraft:azure_hard_bark_logs"
+  ]
+}

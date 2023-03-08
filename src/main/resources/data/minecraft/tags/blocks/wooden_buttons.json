@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "llw:dark_birch_button",
+    "llw:brandrhoss_button",
+    "llw:mirtaliy_button",
+    "llw:elengar_button",
+    "llw:soaked_in_cinnabar_elengar_button",
+    "llw:soaked_with_copper_sediment_elengar_button",
+    "llw:azure_hard_bark_button"
+  ]
+}

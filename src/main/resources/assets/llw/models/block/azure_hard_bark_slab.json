@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "llw:block/azure_hard_bark_planks",
+    "top": "llw:block/azure_hard_bark_planks",
+    "side": "llw:block/azure_hard_bark_planks"
+  }
+}

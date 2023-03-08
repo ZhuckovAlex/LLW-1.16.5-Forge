@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=x":
+    [
+    { "model": "llw:block/chitin_reaper_column_horizontal1", "x": 90, "y": 90   },
+      { "model": "llw:block/chitin_reaper_column_horizontal2", "x": 90, "y": 90   }
+    ],
+    "axis=y":
+    [
+    {    "model": "llw:block/chitin_reaper_column1"   },
+      {    "model": "llw:block/chitin_reaper_column2"   }
+    ],
+    "axis=z":
+            [
+    { "model": "llw:block/chitin_reaper_column_horizontal1",  "x": 90  },
+              { "model": "llw:block/chitin_reaper_column_horizontal2",  "x": 90  }
+              ]
+  }
+}

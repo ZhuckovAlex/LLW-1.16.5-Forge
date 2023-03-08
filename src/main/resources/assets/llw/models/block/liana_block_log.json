@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "llw:block/liana_block_log_top",
+    "side": "llw:block/liana_block_log"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "llw:block/solar_converter"
+    },
+    "facing=west": {
+      "model": "llw:block/solar_converter",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "llw:block/solar_converter",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "llw:block/solar_converter",
+      "y": 270
+    }
+  }
+}

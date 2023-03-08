@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "llw:block/azure_hard_bark_door_bottom",
+    "top": "llw:block/azure_hard_bark_door_top"
+  }
+}

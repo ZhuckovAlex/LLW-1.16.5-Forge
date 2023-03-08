@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "llw:block/mirtaliy_door_bottom",
+    "top": "llw:block/mirtaliy_door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "llw:block/call_of_ancestors0"
+  }
+}

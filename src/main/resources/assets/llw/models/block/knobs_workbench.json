@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "llw:block/knobs_workbench_side",
+    "north": "llw:block/knobs_workbench_side",
+    "south": "llw:block/knobs_workbench_side",
+    "east": "llw:block/knobs_workbench_side",
+    "west": "llw:block/knobs_workbench_side",
+    "up": "llw:block/knobs_workbench_top",
+    "down": "llw:block/knobs_workbench_bottom"
+  }
+}

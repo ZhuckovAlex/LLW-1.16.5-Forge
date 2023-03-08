@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "llw:block/mirtaliy_planks",
+    "top": "llw:block/mirtaliy_planks",
+    "side": "llw:block/mirtaliy_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llw:block/chitin_reaper_slab"
+    },
+    "type=double": {
+      "model": "llw:block/chitin_reaper"
+    },
+    "type=top": {
+      "model": "llw:block/chitin_reaper_slab_top"
+    }
+  }
+}

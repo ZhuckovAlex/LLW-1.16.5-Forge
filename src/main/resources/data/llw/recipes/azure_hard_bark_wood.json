@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "llw:azure_hard_bark_log"
+    }
+  },
+  "result": {
+    "item": "llw:azure_hard_bark_wood",
+    "count": 3
+  }
+}

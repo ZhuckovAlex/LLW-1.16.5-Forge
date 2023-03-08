@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "type=bottom":[
+    {"model": "llw:block/a_slab_of_ancient_elven_tiles" },{"model": "llw:block/a_slab_of_ancient_elven_tiles1" },{"model": "llw:block/a_slab_of_ancient_elven_tiles2" }
+      ],
+
+    "type=double":
+            [
+    {"model": "llw:block/a_block_of_ancient_elven_tiles" },{"model": "llw:block/a_block_of_ancient_elven_tiles1" },{"model": "llw:block/a_block_of_ancient_elven_tiles2" }
+    ],
+
+    "type=top":
+            [
+    { "model": "llw:block/a_slab_of_ancient_elven_tiles_top"},{ "model": "llw:block/a_slab_of_ancient_elven_tiles1_top"},{ "model": "llw:block/a_slab_of_ancient_elven_tiles2_top"}
+              ]
+  }
+}

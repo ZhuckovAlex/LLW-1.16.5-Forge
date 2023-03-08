@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "llw:block/dark_birch_door_top",
+    "bottom": "llw:block/dark_birch_door_bottom"
+  }
+}

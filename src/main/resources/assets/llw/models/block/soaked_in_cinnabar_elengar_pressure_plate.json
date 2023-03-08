@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "llw:block/soaked_in_cinnabar_elengar_planks"
+  }
+}
