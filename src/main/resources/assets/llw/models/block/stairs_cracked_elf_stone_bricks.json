@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "llw:block/cracked_elf_stone_bricks",
-    "top": "llw:block/cracked_elf_stone_bricks",
-    "side": "llw:block/cracked_elf_stone_bricks"
-  }
-}
