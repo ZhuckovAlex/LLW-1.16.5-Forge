@@ -98,8 +98,8 @@ public class LLW
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SILVER_SAGE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SLEEPY_LEAF.get(), RenderType.cutout());
         // Стекло
-        ItemBlockRenderTypes.setRenderLayer(InitBlocks.ELF_GLASS.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(InitBlocks.ELF_GLASS_PANE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.MAGIC_GLASS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.MAGIC_GLASS_PANE.get(), RenderType.translucent());
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
