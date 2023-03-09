@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:elf_glass"
+          "name": "llw:magic_glass"
         }
       ],
       "conditions": [

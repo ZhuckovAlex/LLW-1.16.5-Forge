@@ -6,12 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:stairs_mossy_elf_stone_bricks"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
+          "name": "llw:magic_stone_bricks_stairs"
         }
       ]
     }

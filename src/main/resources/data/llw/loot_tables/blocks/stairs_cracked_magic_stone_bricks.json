@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:elf_glass_pane"
+          "name": "llw:stairs_cracked_magic_stone_bricks"
         }
       ],
       "conditions": [
