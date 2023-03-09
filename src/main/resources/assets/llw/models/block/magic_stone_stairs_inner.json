@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "llw:block/magic_stone",
+    "top": "llw:block/magic_stone",
+    "side": "llw:block/magic_stone"
+  }
+}

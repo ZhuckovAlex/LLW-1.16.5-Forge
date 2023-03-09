@@ -91,6 +91,12 @@ public class LLW
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.BRANDRHOSS_TRAPDOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.MIRTALIY_TRAPDOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.ELENGAR_TRAPDOOR.get(), RenderType.cutout());
+        // Цветы
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.SUNFLOWER.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.BLACK_TOADSTOOL.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.ICY_YAWN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.SILVER_SAGE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.SLEEPY_LEAF.get(), RenderType.cutout());
         // Стекло
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.ELF_GLASS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.ELF_GLASS_PANE.get(), RenderType.translucent());
@@ -158,6 +164,26 @@ public class LLW
 
             event.enqueueWork(() -> {
                 ComposterBlock.COMPOSTABLES.put(InitItems.DARK_BIRCH_SAPLING.get(), 0.2f);
+            });
+
+            event.enqueueWork(() -> {
+                ComposterBlock.COMPOSTABLES.put(InitItems.SUNFLOWER.get(), 0.2f);
+            });
+
+            event.enqueueWork(() -> {
+                ComposterBlock.COMPOSTABLES.put(InitItems.SILVER_SAGE.get(), 0.2f);
+            });
+
+            event.enqueueWork(() -> {
+                ComposterBlock.COMPOSTABLES.put(InitItems.SLEEPY_LEAF.get(), 0.2f);
+            });
+
+            event.enqueueWork(() -> {
+                ComposterBlock.COMPOSTABLES.put(InitItems.BLACK_TOADSTOOL.get(), 0.2f);
+            });
+
+            event.enqueueWork(() -> {
+                ComposterBlock.COMPOSTABLES.put(InitItems.ICY_YAWN.get(), 0.2f);
             });
         }
     }

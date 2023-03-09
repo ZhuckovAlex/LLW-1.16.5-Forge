@@ -1,6 +1,7 @@
 package net.sanberdir_rezolv.llw.init;
 
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -372,60 +373,124 @@ public class InitBlocks {
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
     // Магический камень
-    public static final RegistryObject<Block> ELF_STONE = registerBlock("elf_stone",
+    public static final RegistryObject<Block> MAGIC_STONE = registerBlock("magic_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> ELF_STONE_SLAB = registerBlock("elf_stone_slab",
+    public static final RegistryObject<Block> MAGIC_STONE_SLAB = registerBlock("magic_stone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> ELF_STONE_STAIRS = registerBlock("elf_stone_stairs",
-            () -> new StairBlock(() -> InitBlocks.ELF_STONE.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+    public static final RegistryObject<Block> MAGIC_STONE_STAIRS = registerBlock("magic_stone_stairs",
+            () -> new StairBlock(() -> InitBlocks.MAGIC_STONE.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> ELF_STONE_BRICKS = registerBlock("elf_stone_bricks",
+    public static final RegistryObject<Block> MAGIC_STONE_BRICKS = registerBlock("magic_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
     // Дроп???
-    public static final RegistryObject<Block> CHISELED_ELF_STONE_BRICKS = registerBlock("chiseled_elf_stone_bricks",
+    public static final RegistryObject<Block> CHISELED_MAGIC_STONE_BRICKS = registerBlock("chiseled_magic_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> ELF_STONE_BRICKS_SLAB = registerBlock("elf_stone_bricks_slab",
+    public static final RegistryObject<Block> MAGIC_STONE_BRICKS_SLAB = registerBlock("magic_stone_bricks_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> ELF_STONE_BRICKS_STAIRS = registerBlock("elf_stone_bricks_stairs",
-            () -> new StairBlock(() -> InitBlocks.ELF_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+    public static final RegistryObject<Block> MAGIC_STONE_BRICKS_STAIRS = registerBlock("magic_stone_bricks_stairs",
+            () -> new StairBlock(() -> InitBlocks.MAGIC_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> MOSSY_ELF_STONE_BRICKS = registerBlock("mossy_elf_stone_bricks",
+    public static final RegistryObject<Block> MOSSY_MAGIC_STONE_BRICKS = registerBlock("mossy_magic_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> STAIRS_MOSSY_ELF_STONE_BRICKS = registerBlock("stairs_mossy_elf_stone_bricks",
-            () -> new StairBlock(() -> InitBlocks.MOSSY_ELF_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+    public static final RegistryObject<Block> STAIRS_MOSSY_MAGIC_STONE_BRICKS = registerBlock("stairs_mossy_magic_stone_bricks",
+            () -> new StairBlock(() -> InitBlocks.MOSSY_MAGIC_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> SLAB_MOSSY_ELF_STONE_BRICKS = registerBlock("slab_mossy_elf_stone_bricks",
+    public static final RegistryObject<Block> SLAB_MOSSY_MAGIC_STONE_BRICKS = registerBlock("slab_mossy_magic_stone_bricks",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> CRACKED_ELF_STONE_BRICKS = registerBlock("cracked_elf_stone_bricks",
+    public static final RegistryObject<Block> CRACKED_MAGIC_STONE_BRICKS = registerBlock("cracked_magic_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> STAIRS_CRACKED_ELF_STONE_BRICKS = registerBlock("stairs_cracked_elf_stone_bricks",
-            () -> new StairBlock(() -> InitBlocks.CRACKED_ELF_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+    public static final RegistryObject<Block> STAIRS_CRACKED_MAGIC_STONE_BRICKS = registerBlock("stairs_cracked_magic_stone_bricks",
+            () -> new StairBlock(() -> InitBlocks.CRACKED_MAGIC_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> SLAB_CRACKED_ELF_STONE_BRICKS = registerBlock("slab_cracked_elf_stone_bricks",
+    public static final RegistryObject<Block> SLAB_CRACKED_MAGIC_STONE_BRICKS = registerBlock("slab_cracked_magic_stone_bricks",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
     // Магическое стекло
-    public static final RegistryObject<Block> ELF_GLASS = registerBlock("elf_glass",
+    public static final RegistryObject<Block> MAGIC_GLASS = registerBlock("magic_glass",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)), ModCreativeModeTab.LLW_BLOCKS);
-    public static final RegistryObject<Block> ELF_GLASS_PANE = registerBlock("elf_glass_pane",
+    public static final RegistryObject<Block> MAGIC_GLASS_PANE = registerBlock("magic_glass_pane",
             () -> new IronBarsBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE)), ModCreativeModeTab.LLW_BLOCKS);
 
-    // Хитин
+    // Рунный камень
+    public static final RegistryObject<Block> RUNETG_1 = registerBlock("runetg_1",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> RUNETG_2 = registerBlock("runetg_2",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> RUNETG_3 = registerBlock("runetg_3",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> RUNETG_4 = registerBlock("runetg_4",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+
+    // Мегалит
+    public static final RegistryObject<Block> MOUNTAIN_MEGALIT = registerBlock("mountain_megalit",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.BASALT).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MEGALIT_TALE = registerBlock("megalit_tale",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.BASALT).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MEGALIT_BRICKS = registerBlock("megalit_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.BASALT).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+
+    // Минералы
+    // Родонит
+    public static final RegistryObject<Block> RODONITE = registerBlock("rodonite",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    // Малахит
+    public static final RegistryObject<Block> MALACHITE = registerBlock("malachite",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+
+    // Лунная слеза
+    public static final RegistryObject<Block> MOON_TEAR_OBSIDIAN_ORE = registerBlock("moon_tear_obsidian_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MOON_TEAR_BLOCK = registerBlock("moon_tear_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+
+    // Цветы
+    public static final RegistryObject<Block> SUNFLOWER = registerBlockWithoutBlockItem("sunflower",
+            () -> new FlowerBlock(MobEffects.REGENERATION, 12,BlockBehaviour.Properties.of(Material.GRASS)
+                    .noCollission().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> BLACK_TOADSTOOL = registerBlockWithoutBlockItem("black_toadstool",
+            () -> new FlowerBlock(MobEffects.POISON, 24,BlockBehaviour.Properties.of(Material.GRASS)
+                    .noCollission().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> SILVER_SAGE = registerBlockWithoutBlockItem("silver_sage",
+            () -> new FlowerBlock(MobEffects.DIG_SPEED, 12,BlockBehaviour.Properties.of(Material.GRASS)
+                    .noCollission().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> ICY_YAWN = registerBlockWithoutBlockItem("icy_yawn",
+            () -> new FlowerBlock(MobEffects.DIG_SLOWDOWN, 12,BlockBehaviour.Properties.of(Material.GRASS)
+                    .noCollission().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> SLEEPY_LEAF = registerBlockWithoutBlockItem("sleepy_leaf",
+            () -> new FlowerBlock(MobEffects.SATURATION, 12,BlockBehaviour.Properties.of(Material.GRASS)
+                    .noCollission().sound(SoundType.GRASS).noOcclusion()));
 
     // Магические вещи
+    // Фонарь
     public static final RegistryObject<Block> MAGIC_LANTERN = registerBlock("magic_lantern",
             () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).strength(3.5F).sound(SoundType.LANTERN).lightLevel((p_187433_) -> {
                 return 15;
             }).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+
+    // Тигель
+    public static final RegistryObject<Block> CRUCIBLE = registerBlock("crucible",
+            () -> new Crucible(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
 
 

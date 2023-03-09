@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "llw:block/elf_stone",
-    "top": "llw:block/elf_stone",
-    "side": "llw:block/elf_stone"
-  }
-}

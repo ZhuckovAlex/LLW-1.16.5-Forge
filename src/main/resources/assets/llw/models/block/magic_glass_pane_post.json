@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "pane": "llw:block/magic_glass",
+    "edge": "llw:block/magic_glass_pane_top"
+  }
+}

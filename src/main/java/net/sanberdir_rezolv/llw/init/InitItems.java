@@ -1,6 +1,7 @@
 package net.sanberdir_rezolv.llw.init;
 
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
@@ -220,6 +221,19 @@ public class InitItems {
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> POT_OF_POISON = ITEMS.register("pot_of_poison",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ALCHEMY)));
+
+    // Цветы
+    public static final RegistryObject<Item> SUNFLOWER = ITEMS.register("sunflower",
+            () -> new BlockItem(InitBlocks.SUNFLOWER.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
+    public static final RegistryObject<Item> BLACK_TOADSTOOL = ITEMS.register("black_toadstool",
+            () -> new BlockItem(InitBlocks.BLACK_TOADSTOOL.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
+    public static final RegistryObject<Item> SILVER_SAGE = ITEMS.register("silver_sage",
+            () -> new BlockItem(InitBlocks.SILVER_SAGE.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
+    public static final RegistryObject<Item> ICY_YAWN = ITEMS.register("icy_yawn",
+            () -> new BlockItem(InitBlocks.ICY_YAWN.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
+    public static final RegistryObject<Item> SLEEPY_LEAF = ITEMS.register("sleepy_leaf",
+            () -> new BlockItem(InitBlocks.SLEEPY_LEAF.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
