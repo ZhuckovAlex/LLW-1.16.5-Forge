@@ -1,9 +1,12 @@
 package net.sanberdir_rezolv.llw.world.gen;
 
 import net.minecraft.core.Registry;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
@@ -14,6 +17,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.sanberdir_rezolv.llw.LLW;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
+import net.sanberdir_rezolv.llw.init.InitItems;
 
 public class ModConfiguredFeatures {
 
@@ -66,6 +70,14 @@ public class ModConfiguredFeatures {
                             BlockStateProvider.simple(InitBlocks.MIRTALIY_LEAVES.get()),
                             new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
                             new TwoLayersFeatureSize(1, 0, 2)).build()));
+
+    // Цветы
+
+
+    public static final RegistryObject<ConfiguredFeature<?, ?>> SUNFLOWER = CONFIGURED_FEATURES.register("sunflower",
+            () -> new ConfiguredFeature<>(Feature.FLOWER,
+                    new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(InitBlocks.SUNFLOWER.get()))))));
 
     public static void register(IEventBus eventBus) {
         CONFIGURED_FEATURES.register(eventBus);

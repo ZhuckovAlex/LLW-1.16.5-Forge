@@ -27,6 +27,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 import net.sanberdir_rezolv.llw.init.InitItems;
 import net.sanberdir_rezolv.llw.world.gen.ModConfiguredFeatures;
+import net.sanberdir_rezolv.llw.world.gen.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -59,6 +60,7 @@ public class LLW
         // Регистрация предметов (Не трогать!)
         ITEMS.register(modEventBus);
         InitItems.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         // Регистрация объектов (Не трогать!)
         ModConfiguredFeatures.register(modEventBus);
