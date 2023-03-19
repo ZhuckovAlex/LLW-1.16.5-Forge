@@ -237,11 +237,17 @@ public class InitItems {
             () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
                     .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1200, 0), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> POTION_CHEERFULNESS = ITEMS.register("potion_cheerfulness",
-            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 1200, 0), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> POTION_CAT_VISION = ITEMS.register("potion_cat_vision",
-            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> POTION_OF_IMPETUOSITY = ITEMS.register("potion_of_impetuosity",
-            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 2400, 0), 1F)
+                    .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2400, 0), 1F)
+                    .effect(new MobEffectInstance(MobEffects.JUMP, 2400, 1), 1F)
+                    .build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> THE_SMELL_OF_LOVE = ITEMS.register("the_smell_of_love",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> ALCHEMICAL_INFUSION = ITEMS.register("alchemical_infusion",
@@ -256,7 +262,8 @@ public class InitItems {
             () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
                     .effect(new MobEffectInstance(MobEffects.HEAL, 1, 2), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> POTION_ABSORPTION = ITEMS.register("potion_absorption",
-            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
     public static final RegistryObject<Item> ENTROPY_POTION = ITEMS.register("entropy_potion",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ALCHEMY)));
 
