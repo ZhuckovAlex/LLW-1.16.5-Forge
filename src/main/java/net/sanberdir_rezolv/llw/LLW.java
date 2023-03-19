@@ -1,17 +1,11 @@
 package net.sanberdir_rezolv.llw;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,11 +17,10 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 import net.sanberdir_rezolv.llw.init.InitItems;
-import net.sanberdir_rezolv.llw.world.gen.ModConfiguredFeatures;
-import net.sanberdir_rezolv.llw.world.gen.ModPlacedFeatures;
+import net.sanberdir_rezolv.llw.world.feature.ModConfiguredFeatures;
+import net.sanberdir_rezolv.llw.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -60,11 +53,11 @@ public class LLW
         // Регистрация предметов (Не трогать!)
         ITEMS.register(modEventBus);
         InitItems.register(modEventBus);
-        ModPlacedFeatures.register(modEventBus);
+
 
         // Регистрация объектов (Не трогать!)
         ModConfiguredFeatures.register(modEventBus);
-
+        ModPlacedFeatures.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in

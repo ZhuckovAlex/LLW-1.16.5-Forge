@@ -1,20 +1,18 @@
 package net.sanberdir_rezolv.llw.init;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sanberdir_rezolv.llw.LLW;
-import net.sanberdir_rezolv.llw.init.customitems.BurnFences;
-import net.sanberdir_rezolv.llw.init.customitems.BurnLeaves;
-import net.sanberdir_rezolv.llw.init.customitems.BurnPressurePlates;
-import net.sanberdir_rezolv.llw.init.customitems.BurnSapling;
+import net.sanberdir_rezolv.llw.init.customitems.*;
+import net.sanberdir_rezolv.llw.init.customitems.PotionsMod;
 
 public class InitItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -177,7 +175,7 @@ public class InitItems {
     public static final RegistryObject<Item> GOLDEN_LEAF = ITEMS.register("golden_leaf",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
     public static final RegistryObject<Item> ACORN = ITEMS.register("acorn",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
+            () -> new BurnLite(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(ModCreativeModeTab.LLW_ITEMS)));
     public static final RegistryObject<Item> STAR_MOSS = ITEMS.register("star_moss",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
     public static final RegistryObject<Item> MAGIC_CLOTH = ITEMS.register("magic_cloth",
@@ -233,6 +231,34 @@ public class InitItems {
             () -> new BlockItem(InitBlocks.ICY_YAWN.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
     public static final RegistryObject<Item> SLEEPY_LEAF = ITEMS.register("sleepy_leaf",
             () -> new BlockItem(InitBlocks.SLEEPY_LEAF.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
+
+    // Зелья
+    public static final RegistryObject<Item> POTION_STONE_SKIN = ITEMS.register("potion_stone_skin",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1200, 0), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> POTION_CHEERFULNESS = ITEMS.register("potion_cheerfulness",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> POTION_CAT_VISION = ITEMS.register("potion_cat_vision",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> POTION_OF_IMPETUOSITY = ITEMS.register("potion_of_impetuosity",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> THE_SMELL_OF_LOVE = ITEMS.register("the_smell_of_love",
+            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> ALCHEMICAL_INFUSION = ITEMS.register("alchemical_infusion",
+            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> POTION_HEALING = ITEMS.register("potion_healing",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.HEAL, 1, 0), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> POTION_HEALING_MEDIUM = ITEMS.register("potion_healing_medium",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.HEAL, 1, 1), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> POTION_HEALING_LARGE = ITEMS.register("potion_healing_large",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().alwaysEat()
+                    .effect(new MobEffectInstance(MobEffects.HEAL, 1, 2), 1F).build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> POTION_ABSORPTION = ITEMS.register("potion_absorption",
+            () -> new PotionsMod( new Item.Properties().food(new FoodProperties.Builder().nutrition(0).saturationMod(0).fast().build()).tab(ModCreativeModeTab.LLW_ALCHEMY)));
+    public static final RegistryObject<Item> ENTROPY_POTION = ITEMS.register("entropy_potion",
+            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ALCHEMY)));
 
 
     public static void register(IEventBus eventBus) {

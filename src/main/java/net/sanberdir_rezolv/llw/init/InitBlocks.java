@@ -480,6 +480,11 @@ public class InitBlocks {
             () -> new FlowerBlock(MobEffects.SATURATION, 12,BlockBehaviour.Properties.of(Material.GRASS)
                     .noCollission().sound(SoundType.GRASS).noOcclusion()));
 
+    // Руды
+    public static final RegistryObject<Block> CINNABAR_ORE = registerBlock("cinnabar_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.6f).sound(SoundType.METAL).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+
     // Магические вещи
     // Фонарь
     public static final RegistryObject<Block> MAGIC_LANTERN = registerBlock("magic_lantern",

@@ -4,7 +4,7 @@ import net.minecraft.core.Holder;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.grower.AbstractTreeGrower;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
-import net.sanberdir_rezolv.llw.world.gen.ModConfiguredFeatures;
+import net.sanberdir_rezolv.llw.world.feature.ModConfiguredFeatures;
 import org.jetbrains.annotations.Nullable;
 
 public class MirtaliyTree extends AbstractTreeGrower {

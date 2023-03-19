@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "magforest:item/potion_absorption"
+    "layer0": "llw:item/potion_absorption"
   }
 }
