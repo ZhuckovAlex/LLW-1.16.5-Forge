@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "llw:cinnabar"
+  },
+  "result": "llw:mercury",
+  "experience": 10,
+  "cookingtime": 30
+}

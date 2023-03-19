@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "llw:magic_stone"
+  },
+  "result": "llw:magic_stone_stairs",
+  "count": 1
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:quartz"
+  },
+  "result": "llw:crystal_shard",
+  "experience": 15,
+  "cookingtime": 100
+}

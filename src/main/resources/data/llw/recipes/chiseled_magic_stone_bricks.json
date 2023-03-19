@@ -1,0 +1,9 @@
+
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "llw:magic_stone_bricks"
+  },
+  "result": "llw:chiseled_magic_stone_bricks",
+  "count": 1
+}

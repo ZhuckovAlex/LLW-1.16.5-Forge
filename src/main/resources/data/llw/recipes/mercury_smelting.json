@@ -1,0 +1,10 @@
+
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "llw:cinnabar_ore"
+  },
+  "result": "llw:mercury",
+  "experience": 10,
+  "cookingtime": 40
+}

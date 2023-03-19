@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_swamp",
+  "features": "llw:black_toadstool_placed",
+  "step": "vegetal_decoration"
+}

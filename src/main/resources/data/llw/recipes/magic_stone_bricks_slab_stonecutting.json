@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "llw:magic_stone_bricks"
+  },
+  "result": "llw:magic_stone_bricks_slab",
+  "count": 1
+}

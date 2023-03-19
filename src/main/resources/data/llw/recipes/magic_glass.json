@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "###",
+    "#R#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "llw:crystal_shard"
+    },
+    "R": {
+      "item": "llw:miraculum_flammas"
+    }
+  },
+  "result": {
+    "item": "llw:magic_glass",
+    "count": 8
+  }
+}

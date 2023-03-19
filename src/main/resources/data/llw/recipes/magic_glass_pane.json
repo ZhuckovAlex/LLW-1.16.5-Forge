@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "llw:magic_glass"
+    }
+  },
+  "result": {
+    "item": "llw:magic_glass_pane",
+    "count": 16
+  }
+}
