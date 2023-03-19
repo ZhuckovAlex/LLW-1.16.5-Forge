@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "llw:item/soaked_with_copper_sediment_elengar_door"
+  }
+}

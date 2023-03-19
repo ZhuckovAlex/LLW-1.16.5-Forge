@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "llw:block/soaked_with_copper_sediment_elengar_door_bottom",
+    "top": "llw:block/soaked_with_copper_sediment_elengar_door_top"
+  }
+}
