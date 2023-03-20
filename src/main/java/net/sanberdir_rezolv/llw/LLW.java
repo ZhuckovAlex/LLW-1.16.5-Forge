@@ -54,7 +54,6 @@ public class LLW
         ITEMS.register(modEventBus);
         InitItems.register(modEventBus);
 
-
         // Регистрация объектов (Не трогать!)
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);

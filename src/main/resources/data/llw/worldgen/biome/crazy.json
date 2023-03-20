@@ -1,0 +1,20 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 16679179,
+    "fog_color": 16733194,
+    "water_color": 14958399,
+    "water_fog_color": 14867208,
+    "grass_color": 13856623,
+    "foliage_color": 12135725
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    "minecraft:birch_bees_0002"
+  ]
+}
