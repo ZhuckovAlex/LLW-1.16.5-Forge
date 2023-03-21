@@ -29,6 +29,29 @@
     "llw:malachite",
     "llw:moon_tear_obsidian_ore",
     "llw:moon_tear_block",
-    "llw:cinnabar_ore"
+    "llw:cinnabar_ore",
+
+    "llw:ancient_stone",
+    "llw:mossy_ancient_stone",
+    "llw:cracked_ancient_stone",
+    "llw:ancient_stone_slab",
+    "llw:mossy_ancient_stone_slab",
+    "llw:cracked_ancient_stone_slab",
+    "llw:ancient_stone_stairs",
+    "llw:mossy_ancient_stone_stairs",
+    "llw:cracked_ancient_stone_stairs",
+    "llw:ancient_stone_bricks",
+    "llw:mossy_ancient_bricks",
+    "llw:cracked_ancient_bricks",
+    "llw:ancient_stone_bricks_slab",
+    "llw:cracked_ancient_bricks_slab",
+    "llw:mossy_ancient_bricks_slab",
+    "llw:ancient_bricks_stairs",
+    "llw:mossy_ancient_bricks_stairs",
+    "llw:cracked_ancient_bricks_stairs",
+    "llw:ancient_pillar",
+    "llw:ancient_stone_fence",
+    "llw:ancient_bricks_fence"
+
   ]
 }

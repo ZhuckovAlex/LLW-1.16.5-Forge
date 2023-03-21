@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:cracked_ancient_elf_bricks_slab"
+          "name": "llw:mossy_ancient_bricks_stairs"
         }
       ],
       "conditions": [

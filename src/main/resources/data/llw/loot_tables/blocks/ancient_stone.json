@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:ancient_cobblestone"
+          "name": "llw:ancient_stone"
         }
       ],
       "conditions": [

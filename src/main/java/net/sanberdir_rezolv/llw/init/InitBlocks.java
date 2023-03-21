@@ -431,11 +431,11 @@ public class InitBlocks {
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1).sound(SoundType.STONE)), ModCreativeModeTab.LLW_BLOCKS);
     public static final RegistryObject<Block> ANCIENT_STONE_FENCE  = registerBlock("ancient_stone_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2).sound(SoundType.WOOD)), ModCreativeModeTab.LLW_BLOCKS);
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2).sound(SoundType.STONE)), ModCreativeModeTab.LLW_BLOCKS);
     public static final RegistryObject<Block> ANCIENT_BRICKS_FENCE = registerBlock("ancient_bricks_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2).sound(SoundType.WOOD)), ModCreativeModeTab.LLW_BLOCKS);
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2).sound(SoundType.STONE)), ModCreativeModeTab.LLW_BLOCKS);
 
     // Магический камень
     public static final RegistryObject<Block> MAGIC_STONE = registerBlock("magic_stone",

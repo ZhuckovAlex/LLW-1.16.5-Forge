@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:cracked_ancient_elf_bricks"
+          "name": "llw:ancient_bricks"
         }
       ],
       "conditions": [

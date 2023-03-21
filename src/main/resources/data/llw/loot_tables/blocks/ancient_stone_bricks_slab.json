@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "llw:cracked_ancient_elf_stone_slab",
+                  "block": "llw:ancient_stone_bricks_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "llw:cracked_ancient_elf_stone_slab"
+          "name": "llw:ancient_stone_bricks_slab"
         }
       ]
     }

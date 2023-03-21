@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:ancient_elf_stone_stairs"
+          "name": "llw:cracked_ancient_stone"
         }
       ],
       "conditions": [
