@@ -523,10 +523,10 @@ public class InitBlocks {
     // Лунная слеза
     public static final RegistryObject<Block> MOON_TEAR_OBSIDIAN_ORE = registerBlock("moon_tear_obsidian_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+                    .strength(9f).sound(SoundType.BONE_BLOCK).requiresCorrectToolForDrops()), ModCreativeModeTab.LLW_BLOCKS);
     public static final RegistryObject<Block> MOON_TEAR_BLOCK = registerBlock("moon_tear_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(4f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+                    .strength(7f).sound(SoundType.BONE_BLOCK).requiresCorrectToolForDrops()), ModCreativeModeTab.LLW_BLOCKS);
 
     // Цветы
     public static final RegistryObject<Block> SUNFLOWER = registerBlockWithoutBlockItem("sunflower",
@@ -548,7 +548,7 @@ public class InitBlocks {
     // Руды
     public static final RegistryObject<Block> CINNABAR_ORE = registerBlock("cinnabar_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(0.6f).sound(SoundType.METAL).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+                    .strength(1.5f).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.LLW_BLOCKS);
 
     // Магические вещи
     // Фонарь
