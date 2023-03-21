@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "llw:block/mossy_ancient_bricks",
+    "top": "llw:block/mossy_ancient_bricks",
+    "side": "llw:block/mossy_ancient_bricks"
+  }
+}

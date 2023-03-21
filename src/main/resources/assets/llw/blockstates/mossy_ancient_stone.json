@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "":
+    [
+      {"model": "llw:block/mossy_ancient_stone"},
+      {"model": "llw:block/mossy_ancient_stone_1"},
+      {"model": "llw:block/mossy_ancient_stone_2"},
+      {"model": "llw:block/mossy_ancient_stone_3"}
+    ]
+  }
+}

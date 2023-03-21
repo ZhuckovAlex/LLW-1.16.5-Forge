@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "llw:block/ancient_elf_stone_4"
-  }
-}

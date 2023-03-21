@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/fence_side",
-  "textures": {
-    "texture": "llw:block/ancient_elf_bricks"
-  }
-}

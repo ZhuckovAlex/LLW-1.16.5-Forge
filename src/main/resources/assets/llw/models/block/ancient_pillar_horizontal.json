@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "llw:block/ancient_pillar_top",
+    "side": "llw:block/ancient_pillar"
+  }
+}

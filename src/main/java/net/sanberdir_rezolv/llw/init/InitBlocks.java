@@ -372,6 +372,71 @@ public class InitBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
+    // Древний камень
+    public static final RegistryObject<Block> ANCIENT_STONE = registerBlock("ancient_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ANCIENT_STONE = registerBlock("mossy_ancient_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> CRACKED_ANCIENT_STONE = registerBlock("cracked_ancient_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_STONE_SLAB = registerBlock("ancient_stone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ANCIENT_STONE_SLAB = registerBlock("mossy_ancient_stone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> CRACKED_ANCIENT_STONE_SLAB = registerBlock("cracked_ancient_stone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_STONE_STAIRS = registerBlock("ancient_stone_stairs",
+            () -> new StairBlock(() -> InitBlocks.ANCIENT_STONE.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ANCIENT_STONE_STAIRS = registerBlock("mossy_ancient_stone_stairs",
+            () -> new StairBlock(() -> InitBlocks.ANCIENT_STONE.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> CRACKED_ANCIENT_STONE_STAIRS = registerBlock("cracked_ancient_stone_stairs",
+            () -> new StairBlock(() -> InitBlocks.ANCIENT_STONE.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_STONE_BRICKS = registerBlock("ancient_stone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ANCIENT_BRICKS = registerBlock("mossy_ancient_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> CRACKED_ANCIENT_BRICKS = registerBlock("cracked_ancient_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_STONE_BRICKS_SLAB = registerBlock("ancient_stone_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> CRACKED_ANCIENT_BRICKS_SLAB = registerBlock("cracked_ancient_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ANCIENT_BRICKS_SLAB = registerBlock("mossy_ancient_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_BRICKS_STAIRS = registerBlock("ancient_bricks_stairs",
+            () -> new StairBlock(() -> InitBlocks.ANCIENT_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ANCIENT_BRICKS_STAIRS = registerBlock("mossy_ancient_bricks_stairs",
+            () -> new StairBlock(() -> InitBlocks.ANCIENT_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> CRACKED_ANCIENT_BRICKS_STAIRS = registerBlock("cracked_ancient_bricks_stairs",
+            () -> new StairBlock(() -> InitBlocks.ANCIENT_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_PILLAR = registerBlock("ancient_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1).sound(SoundType.STONE)), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_STONE_FENCE  = registerBlock("ancient_stone_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2).sound(SoundType.WOOD)), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> ANCIENT_BRICKS_FENCE = registerBlock("ancient_bricks_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2).sound(SoundType.WOOD)), ModCreativeModeTab.LLW_BLOCKS);
+
     // Магический камень
     public static final RegistryObject<Block> MAGIC_STONE = registerBlock("magic_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
