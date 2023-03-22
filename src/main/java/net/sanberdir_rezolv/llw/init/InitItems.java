@@ -231,6 +231,8 @@ public class InitItems {
             () -> new BlockItem(InitBlocks.ICY_YAWN.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
     public static final RegistryObject<Item> SLEEPY_LEAF = ITEMS.register("sleepy_leaf",
             () -> new BlockItem(InitBlocks.SLEEPY_LEAF.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
+    public static final RegistryObject<Item> THE_CALL_OF_THE_ANCESTORS = ITEMS.register("the_call_of_the_ancestors",
+            () -> new BlockItem(InitBlocks.THE_CALL_OF_THE_ANCESTORS.get(),(new Item.Properties().tab(ModCreativeModeTab.LLW_BLOCKS))));
 
     // Зелья
     public static final RegistryObject<Item> POTION_STONE_SKIN = ITEMS.register("potion_stone_skin",

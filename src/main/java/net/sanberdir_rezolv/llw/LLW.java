@@ -91,6 +91,7 @@ public class LLW
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.ICY_YAWN.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SILVER_SAGE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SLEEPY_LEAF.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.THE_CALL_OF_THE_ANCESTORS.get(), RenderType.cutout());
         // Стекло
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.MAGIC_GLASS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.MAGIC_GLASS_PANE.get(), RenderType.translucent());
@@ -181,6 +182,10 @@ public class LLW
 
             event.enqueueWork(() -> {
                 ComposterBlock.COMPOSTABLES.put(InitItems.ICY_YAWN.get(), 0.2f);
+            });
+
+            event.enqueueWork(() -> {
+                ComposterBlock.COMPOSTABLES.put(InitItems.THE_CALL_OF_THE_ANCESTORS.get(), 0.2f);
             });
         }
     }

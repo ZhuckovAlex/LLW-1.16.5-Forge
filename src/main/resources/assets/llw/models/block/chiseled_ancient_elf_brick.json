@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "llw:block/ancient_elf_pillar_top",
-    "side": "llw:block/chiseled_ancient_elf_brick"
-  }
-}

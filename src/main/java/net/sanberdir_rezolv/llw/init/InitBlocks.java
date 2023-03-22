@@ -376,6 +376,9 @@ public class InitBlocks {
     public static final RegistryObject<Block> ANCIENT_STONE = registerBlock("ancient_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_ANCIENT_STONE = registerBlock("chiseled_ancient_stone",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
     public static final RegistryObject<Block> MOSSY_ANCIENT_STONE = registerBlock("mossy_ancient_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
@@ -519,6 +522,10 @@ public class InitBlocks {
     public static final RegistryObject<Block> MALACHITE = registerBlock("malachite",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    // Лавовый камень
+    public static final RegistryObject<Block> LAVA_ROCK = registerBlock("lava_rock",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f).sound(SoundType.NETHER_ORE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
     // Лунная слеза
     public static final RegistryObject<Block> MOON_TEAR_OBSIDIAN_ORE = registerBlock("moon_tear_obsidian_ore",
@@ -543,6 +550,9 @@ public class InitBlocks {
                     .noCollission().sound(SoundType.GRASS).noOcclusion()));
     public static final RegistryObject<Block> SLEEPY_LEAF = registerBlockWithoutBlockItem("sleepy_leaf",
             () -> new FlowerBlock(MobEffects.SATURATION, 12,BlockBehaviour.Properties.of(Material.GRASS)
+                    .noCollission().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> THE_CALL_OF_THE_ANCESTORS = registerBlockWithoutBlockItem("the_call_of_the_ancestors",
+            () -> new FlowerBlock(MobEffects.HERO_OF_THE_VILLAGE, 120,BlockBehaviour.Properties.of(Material.GRASS)
                     .noCollission().sound(SoundType.GRASS).noOcclusion()));
 
     // Руды

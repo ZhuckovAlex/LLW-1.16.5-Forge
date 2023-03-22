@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:chiseled_ancient_magic_brick"
+          "name": "llw:chiseled_ancient_stone"
         }
       ],
       "conditions": [
