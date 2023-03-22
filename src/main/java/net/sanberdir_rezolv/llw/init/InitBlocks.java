@@ -522,8 +522,8 @@ public class InitBlocks {
     public static final RegistryObject<Block> MALACHITE = registerBlock("malachite",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).sound(SoundType.BONE_BLOCK).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
-    // Лавовый камень
-    public static final RegistryObject<Block> LAVA_ROCK = registerBlock("lava_rock",
+    // Скопление первородного огня
+    public static final RegistryObject<Block> ACCUMULATION_OF_PRIMORDIAL_FIRE = registerBlock("accumulation_of_primordial_fire",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).sound(SoundType.NETHER_ORE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
