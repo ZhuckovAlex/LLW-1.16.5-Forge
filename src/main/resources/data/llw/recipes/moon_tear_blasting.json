@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "llw:moon_tear_obsidian_ore"
+  },
+  "result": "llw:moon_tear",
+  "experience": 1,
+  "cookingtime": 400
+}
