@@ -19,6 +19,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 import net.sanberdir_rezolv.llw.init.InitItems;
+import net.sanberdir_rezolv.llw.init.sound.InitSounds;
 import net.sanberdir_rezolv.llw.world.feature.ModConfiguredFeatures;
 import net.sanberdir_rezolv.llw.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
@@ -53,6 +54,9 @@ public class LLW
         // Регистрация предметов (Не трогать!)
         ITEMS.register(modEventBus);
         InitItems.register(modEventBus);
+
+        // Регистрация звуков (Не трогать!)
+        InitSounds.register(modEventBus);
 
         // Регистрация объектов (Не трогать!)
         ModConfiguredFeatures.register(modEventBus);

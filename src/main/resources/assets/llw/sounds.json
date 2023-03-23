@@ -1,0 +1,40 @@
+{
+  "dowsing_rod_found_ore": {
+    "subtitle": "sounds.llw.dowsing_rod_found_ore",
+    "sounds": [
+      "llw:dowsing_rod_found_ore"
+    ]
+  },
+
+  "primordial_fire_break": {
+    "subtitle": "llw.primordial_fire_break",
+    "sounds": [
+      "llw:primordial_fire_break"
+    ]
+  },
+  "primordial_fire_step": {
+    "subtitle": "llw.primordial_fire_step",
+    "sounds": [
+      "llw:primordial_fire_step",
+      "llw:primordial_fire_step_1"
+    ]
+  },
+  "primordial_fire_place": {
+    "subtitle": "llw.primordial_fire_place",
+    "sounds": [
+      "llw:primordial_fire_place"
+    ]
+  },
+  "primordial_fire_hit": {
+    "subtitle": "llw.primordial_fire_hit",
+    "sounds": [
+      "llw:primordial_fire_hit"
+    ]
+  },
+  "primordial_fire_fall": {
+    "subtitle": "llw.primordial_fire_fall",
+    "sounds": [
+      "llw:primordial_fire_fall"
+    ]
+  }
+}
