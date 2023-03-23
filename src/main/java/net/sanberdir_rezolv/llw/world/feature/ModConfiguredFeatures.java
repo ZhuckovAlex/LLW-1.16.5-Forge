@@ -4,13 +4,16 @@ import com.google.common.base.Suppliers;
 import net.minecraft.core.Registry;
 import net.minecraft.data.worldgen.features.OreFeatures;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.util.valueproviders.ConstantInt;
+import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.levelgen.GeodeBlockSettings;
+import net.minecraft.world.level.levelgen.GeodeCrackSettings;
+import net.minecraft.world.level.levelgen.GeodeLayerSettings;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.*;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
@@ -81,6 +84,22 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, InitBlocks.CINNABAR_ORE.get().defaultBlockState())));
     public static final RegistryObject<ConfiguredFeature<?, ?>> CINNABAR_ORE = CONFIGURED_FEATURES.register("cinnabar_ore",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(CINNABAR_ORES.get(),3)));
+
+    //Жеоды
+    public static final RegistryObject<ConfiguredFeature<?, ?>> PRIMORDIAL_FIRE_GEODE = CONFIGURED_FEATURES.register("primordial_fire_geode",
+            () -> new ConfiguredFeature<>(Feature.GEODE,
+                    new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
+                            BlockStateProvider.simple(Blocks.OBSIDIAN),
+                            BlockStateProvider.simple(InitBlocks.BLOOMING_ACCUMULATION_OF_PRIMORDIAL_FIRE.get()),
+                            BlockStateProvider.simple(InitBlocks.ACCUMULATION_OF_PRIMORDIAL_FIRE.get()),
+                            BlockStateProvider.simple(Blocks.OBSIDIAN),
+                            List.of(InitBlocks.MOON_TEAR_OBSIDIAN_ORE.get().defaultBlockState()),
+                            BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
+                            new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
+                            new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D,
+                            true, UniformInt.of(3, 8),
+                            UniformInt.of(2, 6), UniformInt.of(1, 2),
+                            -18, 18, 0.075D, 1)));
 
     // Цветы
     public static final RegistryObject<ConfiguredFeature<?, ?>> SUNFLOWER = CONFIGURED_FEATURES.register("sunflower",
