@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "llw:block/medium_primordial_fire_bud"
+  }
+}

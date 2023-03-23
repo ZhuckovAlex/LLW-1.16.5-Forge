@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "llw:block/blooming_accumulation_of_primordial_fire"
+  }
+}

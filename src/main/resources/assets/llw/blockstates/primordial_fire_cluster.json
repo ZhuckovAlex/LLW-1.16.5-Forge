@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "llw:block/primordial_fire_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "llw:block/primordial_fire_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "llw:block/primordial_fire_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "llw:block/primordial_fire_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "llw:block/primordial_fire_cluster"
+    },
+    "facing=west": {
+      "model": "llw:block/primordial_fire_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

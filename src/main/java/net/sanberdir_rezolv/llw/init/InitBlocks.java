@@ -526,6 +526,29 @@ public class InitBlocks {
     public static final RegistryObject<Block> ACCUMULATION_OF_PRIMORDIAL_FIRE = registerBlock("accumulation_of_primordial_fire",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).sound(SoundType.NETHER_ORE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> BLOOMING_ACCUMULATION_OF_PRIMORDIAL_FIRE = registerBlock("blooming_accumulation_of_primordial_fire",
+            () -> new BloomingPrimordialFire(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f).randomTicks().sound(SoundType.NETHER_ORE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> PRIMORDIAL_FIRE_CLUSTER = registerBlock("primordial_fire_cluster",
+            () ->  new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> {
+                return 5;
+            })), ModCreativeModeTab.LLW_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PRIMORDIAL_FIRE_BUD = registerBlock("large_primordial_fire_bud",
+            () ->  new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> {
+                return 4;
+            })), ModCreativeModeTab.LLW_BLOCKS);
+
+    public static final RegistryObject<Block> MEDIUM_PRIMORDIAL_FIRE_BUD = registerBlock("medium_primordial_fire_bud",
+            () ->  new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> {
+                return 2;
+            })), ModCreativeModeTab.LLW_BLOCKS);
+
+    public static final RegistryObject<Block> SMALL_PRIMORDIAL_FIRE_BUD = registerBlock("small_primordial_fire_bud",
+            () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> {
+                return 1;
+            })), ModCreativeModeTab.LLW_BLOCKS);
+
 
     // Лунная слеза
     public static final RegistryObject<Block> MOON_TEAR_OBSIDIAN_ORE = registerBlock("moon_tear_obsidian_ore",

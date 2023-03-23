@@ -98,7 +98,13 @@ public class LLW
         // Эленгар в меди
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SOAKED_WITH_COPPER_SEDIMENT_ELENGAR_DOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SOAKED_WITH_COPPER_SEDIMENT_ELENGAR_TRAPDOOR.get(), RenderType.translucent());
-    }
+
+        // Первородный огонь
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.SMALL_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.LARGE_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.MEDIUM_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.PRIMORDIAL_FIRE_CLUSTER.get(), RenderType.cutout());
+            }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
