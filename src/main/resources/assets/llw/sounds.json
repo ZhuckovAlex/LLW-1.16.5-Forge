@@ -29,7 +29,8 @@
   "primordial_fire_hit": {
     "subtitle": "llw.primordial_fire_hit",
     "sounds": [
-      "llw:primordial_fire_hit"
+      "llw:primordial_fire_hit",
+      "llw:primordial_fire_hit_1"
     ]
   },
   "primordial_fire_fall": {

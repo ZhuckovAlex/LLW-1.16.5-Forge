@@ -22,7 +22,7 @@ public class InitSounds {
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_FALL = registerSoundEvent("primordial_fire_fall");
 
     // Регистрация звуков первооня
-    public static final ForgeSoundType PRIMORDIAL_FIRE_SOUNDS = new ForgeSoundType(1f, 1f,
+    public static final ForgeSoundType PRIMORDIAL_FIRE_SOUNDS = new ForgeSoundType(1f, 1.25f,
             InitSounds.PRIMORDIAL_FIRE_BREAK, InitSounds.PRIMORDIAL_FIRE_STEP, InitSounds.PRIMORDIAL_FIRE_PLACE,
             InitSounds.PRIMORDIAL_FIRE_HIT, InitSounds.PRIMORDIAL_FIRE_FALL);
 

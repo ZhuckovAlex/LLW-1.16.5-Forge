@@ -34,7 +34,7 @@ public class ModPlacedFeatures {
     // Жеоды
     public static final RegistryObject<PlacedFeature> PRIMORDIAL_FIRE_GEODE_PLACED = PLACED_FEATURES.register("primordial_fire_geode_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.PRIMORDIAL_FIRE_GEODE.getHolder().get(), List.of(
-                    RarityFilter.onAverageOnceEvery(70), InSquarePlacement.spread(),
+                    RarityFilter.onAverageOnceEvery(280), InSquarePlacement.spread(),
                     HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6), VerticalAnchor.absolute(50)),
                     BiomeFilter.biome())));
 
