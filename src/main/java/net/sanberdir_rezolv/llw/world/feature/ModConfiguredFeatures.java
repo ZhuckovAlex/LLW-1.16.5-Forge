@@ -92,7 +92,7 @@ public class ModConfiguredFeatures {
                             BlockStateProvider.simple(Blocks.OBSIDIAN),
                             BlockStateProvider.simple(InitBlocks.BLOOMING_ACCUMULATION_OF_PRIMORDIAL_FIRE.get()),
                             BlockStateProvider.simple(InitBlocks.ACCUMULATION_OF_PRIMORDIAL_FIRE.get()),
-                            BlockStateProvider.simple(Blocks.OBSIDIAN),
+                            BlockStateProvider.simple(Blocks.BASALT),
                             List.of(InitBlocks.MOON_TEAR_OBSIDIAN_ORE.get().defaultBlockState()),
                             BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                             new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),

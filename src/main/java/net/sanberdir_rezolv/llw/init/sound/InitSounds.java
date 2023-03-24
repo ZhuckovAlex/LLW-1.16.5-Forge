@@ -11,18 +11,18 @@ import net.sanberdir_rezolv.llw.LLW;
 public class InitSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, LLW.MODID);
-
+    // Не трогать!
     public static final RegistryObject<SoundEvent> DOWSING_ROD_FOUND_ORE =
             registerSoundEvent("dowsing_rod_found_ore");
-
+    // Звуки первоогня
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_BREAK = registerSoundEvent("primordial_fire_break");
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_STEP = registerSoundEvent("primordial_fire_step");
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_PLACE = registerSoundEvent("primordial_fire_place");
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_HIT = registerSoundEvent("primordial_fire_hit");
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_FALL = registerSoundEvent("primordial_fire_fall");
 
-
-    public static final ForgeSoundType PRIMORDIAL_FIRE_SOUNDS = new ForgeSoundType(0.3f, 1f,
+    // Регистрация звуков первооня
+    public static final ForgeSoundType PRIMORDIAL_FIRE_SOUNDS = new ForgeSoundType(1f, 1f,
             InitSounds.PRIMORDIAL_FIRE_BREAK, InitSounds.PRIMORDIAL_FIRE_STEP, InitSounds.PRIMORDIAL_FIRE_PLACE,
             InitSounds.PRIMORDIAL_FIRE_HIT, InitSounds.PRIMORDIAL_FIRE_FALL);
 
