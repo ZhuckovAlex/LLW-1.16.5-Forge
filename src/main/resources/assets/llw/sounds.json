@@ -10,7 +10,10 @@
   "primordial_fire_break": {
     "subtitle": "llw.primordial_fire_break",
     "sounds": [
-      "llw:primordial_fire_break"
+      "llw:primordial_fire_break",
+      "llw:primordial_fire_break1",
+      "llw:primordial_fire_break2",
+      "llw:primordial_fire_break3"
     ]
   },
   "primordial_fire_step": {
@@ -25,7 +28,10 @@
   "primordial_fire_place": {
     "subtitle": "llw.primordial_fire_place",
     "sounds": [
-      "llw:primordial_fire_place"
+      "llw:primordial_fire_place",
+      "llw:primordial_fire_place1",
+      "llw:primordial_fire_place2",
+      "llw:primordial_fire_place3"
     ]
   },
   "primordial_fire_hit": {
