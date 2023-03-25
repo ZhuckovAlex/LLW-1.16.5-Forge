@@ -17,7 +17,9 @@
     "subtitle": "llw.primordial_fire_step",
     "sounds": [
       "llw:primordial_fire_step",
-      "llw:primordial_fire_step_1"
+      "llw:primordial_fire_step1",
+      "llw:primordial_fire_step2",
+      "llw:primordial_fire_step3"
     ]
   },
   "primordial_fire_place": {

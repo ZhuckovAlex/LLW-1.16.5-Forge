@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:snowy_taiga",
+  "features": "llw:icy_yawn2_placed",
+  "step": "vegetal_decoration"
+}

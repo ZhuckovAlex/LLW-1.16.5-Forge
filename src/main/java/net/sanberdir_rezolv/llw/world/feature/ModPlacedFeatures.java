@@ -27,6 +27,14 @@ public class ModPlacedFeatures {
             () -> new PlacedFeature(ModConfiguredFeatures.ICY_YAWN.getHolder().get(), List.of(RarityFilter.onAverageOnceEvery(5),
                     InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 
+    public static final RegistryObject<PlacedFeature> ICY_YAWN2_PLACED = PLACED_FEATURES.register("icy_yawn2_placed",
+            () -> new PlacedFeature(ModConfiguredFeatures.ICY_YAWN.getHolder().get(), List.of(RarityFilter.onAverageOnceEvery(5),
+                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+
+    public static final RegistryObject<PlacedFeature> SILVER_SAGE_PLACED = PLACED_FEATURES.register("silver_sage_placed",
+            () -> new PlacedFeature(ModConfiguredFeatures.SILVER_SAGE.getHolder().get(), List.of(RarityFilter.onAverageOnceEvery(5),
+                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+
     public static final RegistryObject<PlacedFeature> BLACK_TOADSTOOL_PLACED = PLACED_FEATURES.register("black_toadstool_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.BLACK_TOADSTOOL.getHolder().get(), List.of(RarityFilter.onAverageOnceEvery(5),
                     InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
@@ -34,7 +42,7 @@ public class ModPlacedFeatures {
     // Жеоды
     public static final RegistryObject<PlacedFeature> PRIMORDIAL_FIRE_GEODE_PLACED = PLACED_FEATURES.register("primordial_fire_geode_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.PRIMORDIAL_FIRE_GEODE.getHolder().get(), List.of(
-                    RarityFilter.onAverageOnceEvery(280), InSquarePlacement.spread(),
+                    RarityFilter.onAverageOnceEvery(130), InSquarePlacement.spread(),
                     HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6), VerticalAnchor.absolute(50)),
                     BiomeFilter.biome())));
 

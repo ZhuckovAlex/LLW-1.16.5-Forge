@@ -92,13 +92,13 @@ public class ModConfiguredFeatures {
                             BlockStateProvider.simple(Blocks.OBSIDIAN),
                             BlockStateProvider.simple(InitBlocks.BLOOMING_ACCUMULATION_OF_PRIMORDIAL_FIRE.get()),
                             BlockStateProvider.simple(InitBlocks.ACCUMULATION_OF_PRIMORDIAL_FIRE.get()),
-                            BlockStateProvider.simple(Blocks.BASALT),
+                            BlockStateProvider.simple(Blocks.POLISHED_BASALT),
                             List.of(InitBlocks.MOON_TEAR_OBSIDIAN_ORE.get().defaultBlockState()),
                             BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                             new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
-                            new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D,
-                            true, UniformInt.of(3, 8),
-                            UniformInt.of(2, 6), UniformInt.of(1, 2),
+                            new GeodeCrackSettings(0.25D, 1.5D, 1), 0.06D, 0.1D,
+                            true, UniformInt.of(2, 5),
+                            UniformInt.of(1, 4), UniformInt.of(1, 2),
                             -18, 18, 0.075D, 1)));
 
     // Цветы
@@ -111,6 +111,12 @@ public class ModConfiguredFeatures {
             () -> new ConfiguredFeature<>(Feature.FLOWER,
                     new RandomPatchConfiguration(3, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(InitBlocks.ICY_YAWN.get()))))));
+
+    public static final RegistryObject<ConfiguredFeature<?, ?>> SILVER_SAGE = CONFIGURED_FEATURES.register("silver_sage",
+            () -> new ConfiguredFeature<>(Feature.FLOWER,
+                    new RandomPatchConfiguration(3, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(InitBlocks.SILVER_SAGE.get()))))));
+
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> BLACK_TOADSTOOL = CONFIGURED_FEATURES.register("black_toadstool",
             () -> new ConfiguredFeature<>(Feature.FLOWER,

@@ -20,6 +20,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 import net.sanberdir_rezolv.llw.init.InitItems;
 import net.sanberdir_rezolv.llw.init.sound.InitSounds;
+import net.sanberdir_rezolv.llw.world.biome.ModBiomes;
 import net.sanberdir_rezolv.llw.world.feature.ModConfiguredFeatures;
 import net.sanberdir_rezolv.llw.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
@@ -57,6 +58,8 @@ public class LLW
 
         // Регистрация звуков (Не трогать!)
         InitSounds.register(modEventBus);
+
+        ModBiomes.register(modEventBus);
 
         // Регистрация объектов (Не трогать!)
         ModConfiguredFeatures.register(modEventBus);
