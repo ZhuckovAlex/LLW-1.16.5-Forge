@@ -133,6 +133,10 @@ public class InitItems {
             () -> new Item (new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(6).build())
                     .tab(ModCreativeModeTab.LLW_ITEMS)));
 
+    // Дневник
+    public static final RegistryObject<Item> MAGIC_BOOK = ITEMS.register("magic_book",
+            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
+
     // Простые предметы
     public static final RegistryObject<Item> VERMILION = ITEMS.register("vermilion",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
