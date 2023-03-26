@@ -102,9 +102,14 @@ public class LLW
         // Стекло
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.MAGIC_GLASS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.MAGIC_GLASS_PANE.get(), RenderType.translucent());
+
         // Эленгар в меди
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SOAKED_WITH_COPPER_SEDIMENT_ELENGAR_DOOR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SOAKED_WITH_COPPER_SEDIMENT_ELENGAR_TRAPDOOR.get(), RenderType.translucent());
+
+        // Эленгар в киновари
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.SOAKED_IN_CINNABAR_ELENGAR_DOOR.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.SOAKED_IN_CINNABAR_ELENGAR_TRAPDOOR.get(), RenderType.translucent());
 
         // Первородный огонь
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.SMALL_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());

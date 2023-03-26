@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "llw:block/soaked_in_cinnabar_elengar_door_bottom",
+    "top": "llw:block/soaked_in_cinnabar_elengar_door_top"
+  }
+}

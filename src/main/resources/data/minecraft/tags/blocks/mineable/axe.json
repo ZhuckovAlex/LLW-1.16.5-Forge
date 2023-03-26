@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-
+    "llw:soaked_with_copper_sediment_elengar_door",
+    "llw:soaked_with_copper_sediment_elengar_trapdoor",
+    "llw:soaked_with_copper_sediment_elengar_door",
+    "llw:soaked_with_copper_sediment_elengar_trapdoor"
   ]
 }
