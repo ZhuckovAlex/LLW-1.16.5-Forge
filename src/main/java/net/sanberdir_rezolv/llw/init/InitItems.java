@@ -6,6 +6,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,6 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.sanberdir_rezolv.llw.LLW;
 import net.sanberdir_rezolv.llw.init.customitems.*;
 import net.sanberdir_rezolv.llw.init.customitems.PotionsMod;
+import net.sanberdir_rezolv.llw.init.sound.InitSounds;
 
 public class InitItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -132,6 +134,16 @@ public class InitItems {
     public static final RegistryObject<Item> PURE_FRUIT = ITEMS.register("pure_fruit",
             () -> new Item (new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(6).build())
                     .tab(ModCreativeModeTab.LLW_ITEMS)));
+
+    // Пластинки
+    // Зов предков
+    public static final RegistryObject<Item> MUSIC_DISC_THE_CALL_OF_THE_ANCESTORS = ITEMS.register("music_disc_the_call_of_the_ancestors",
+            () -> new RecordItem(4, InitSounds.DISC_THE_CALL_OF_THE_ANCESTORS,
+                    new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1),60));
+
+    public static final RegistryObject<Item> MUSIC_DISC_THE_WHISPER_OF_ANCIENT_STONES = ITEMS.register("music_disc_the_whisper_of_ancient_stones",
+            () -> new RecordItem(2, InitSounds.DISC_THE_WHISPER_OF_ANCIENT_STONES,
+                    new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1),60));
 
     // Дневник
     public static final RegistryObject<Item> MAGIC_BOOK = ITEMS.register("magic_book",

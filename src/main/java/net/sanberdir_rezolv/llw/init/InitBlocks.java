@@ -597,9 +597,14 @@ public class InitBlocks {
             () -> new Crucible(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
+    // Чертёжный стол
+    public static final RegistryObject<Block> DRAWING_TABLE = registerBlock("drawing_table",
+            () -> new Facing(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3).sound(SoundType.STONE).noOcclusion()), ModCreativeModeTab.LLW_BLOCKS);
 
 
-    //Ниже идёт код регистрации не трогать!!!
+
+    // Ниже идёт код регистрации не трогать!!!
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

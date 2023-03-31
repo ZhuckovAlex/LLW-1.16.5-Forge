@@ -21,6 +21,11 @@ public class InitSounds {
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_HIT = registerSoundEvent("primordial_fire_hit");
     public static RegistryObject<SoundEvent> PRIMORDIAL_FIRE_FALL = registerSoundEvent("primordial_fire_fall");
 
+    // Пластинка - зов предков
+    public static RegistryObject<SoundEvent> DISC_THE_CALL_OF_THE_ANCESTORS = registerSoundEvent("disc_the_call_of_the_ancestors");
+    // Пластинка - шёпот древних камней
+    public static RegistryObject<SoundEvent> DISC_THE_WHISPER_OF_ANCIENT_STONES = registerSoundEvent("disc_the_whisper_of_ancient_stones");
+
     // Регистрация звуков первооня
     public static final ForgeSoundType PRIMORDIAL_FIRE_SOUNDS = new ForgeSoundType(1f, 1.25f,
             InitSounds.PRIMORDIAL_FIRE_BREAK, InitSounds.PRIMORDIAL_FIRE_STEP, InitSounds.PRIMORDIAL_FIRE_PLACE,

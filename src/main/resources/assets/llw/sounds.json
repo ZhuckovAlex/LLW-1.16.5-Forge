@@ -46,5 +46,21 @@
     "sounds": [
       "llw:primordial_fire_fall"
     ]
+  },
+  "disc_the_call_of_the_ancestors": {
+    "sounds": [
+      {
+        "name": "llw:disc_the_call_of_the_ancestors",
+        "stream": true
+      }
+    ]
+  },
+  "disc_the_whisper_of_ancient_stones": {
+    "sounds": [
+      {
+        "name": "llw:disc_the_whisper_of_ancient_stones",
+        "stream": true
+      }
+    ]
   }
 }
