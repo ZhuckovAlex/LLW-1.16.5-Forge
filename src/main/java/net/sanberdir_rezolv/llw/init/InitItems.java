@@ -186,6 +186,8 @@ public class InitItems {
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
     public static final RegistryObject<Item> FOCUSING_LENS = ITEMS.register("focusing_lens",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
+    public static final RegistryObject<Item> THE_LENS_OF_REVELATION = ITEMS.register("the_lens_of_revelation",
+            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
     public static final RegistryObject<Item> SCROLL = ITEMS.register("scroll",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
     public static final RegistryObject<Item> GOLDEN_LEAF = ITEMS.register("golden_leaf",

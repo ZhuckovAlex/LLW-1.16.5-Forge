@@ -20,7 +20,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 import net.sanberdir_rezolv.llw.init.InitItems;
 import net.sanberdir_rezolv.llw.init.sound.InitSounds;
-import net.sanberdir_rezolv.llw.world.biome.ModBiomes;
+
 import net.sanberdir_rezolv.llw.world.feature.ModConfiguredFeatures;
 import net.sanberdir_rezolv.llw.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
@@ -59,7 +59,6 @@ public class LLW
         // Регистрация звуков (Не трогать!)
         InitSounds.register(modEventBus);
 
-        ModBiomes.register(modEventBus);
 
         // Регистрация объектов (Не трогать!)
         ModConfiguredFeatures.register(modEventBus);
@@ -116,7 +115,9 @@ public class LLW
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.LARGE_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.MEDIUM_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.PRIMORDIAL_FIRE_CLUSTER.get(), RenderType.cutout());
-            }
+
+
+    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
@@ -205,6 +206,7 @@ public class LLW
             event.enqueueWork(() -> {
                 ComposterBlock.COMPOSTABLES.put(InitItems.THE_CALL_OF_THE_ANCESTORS.get(), 0.2f);
             });
+
         }
     }
 }

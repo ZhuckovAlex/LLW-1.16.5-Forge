@@ -96,7 +96,7 @@ public class ModConfiguredFeatures {
                             List.of(InitBlocks.MOON_TEAR_OBSIDIAN_ORE.get().defaultBlockState()),
                             BlockTags.FEATURES_CANNOT_REPLACE , BlockTags.GEODE_INVALID_BLOCKS),
                             new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
-                            new GeodeCrackSettings(0.25D, 1.5D, 1), 0.06D, 0.1D,
+                            new GeodeCrackSettings(0.25D, 1.5D, 1), 0.12D, 0.1D,
                             true, UniformInt.of(2, 5),
                             UniformInt.of(1, 4), UniformInt.of(1, 2),
                             -18, 18, 0.075D, 1)));
