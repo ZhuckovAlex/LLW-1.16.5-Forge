@@ -584,6 +584,16 @@ public class InitBlocks {
     public static final RegistryObject<Block> CINNABAR_ORE = registerBlock("cinnabar_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5f).requiresCorrectToolForDrops().sound(SoundType.METAL)), ModCreativeModeTab.LLW_BLOCKS);
+    // Мел
+    public static final RegistryObject<Block> CHALK_BLOCK = registerBlockWithoutBlockItem("chalk_block",
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .noCollission().requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> BLUE_CHALK_BLOCK = registerBlockWithoutBlockItem("blue_chalk_block",
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .noCollission().requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> GOLDEN_CHALK_BLOCK = registerBlockWithoutBlockItem("golden_chalk_block",
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .noCollission().requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion()));
 
     // Магические вещи
     // Фонарь

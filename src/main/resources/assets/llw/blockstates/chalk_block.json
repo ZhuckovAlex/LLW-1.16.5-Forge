@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "":[
+    {"model": "llw:block/chalk1"},{"model": "llw:block/chalk2"},{"model": "llw:block/chalk3"}
+   ,{"model": "llw:block/chalk4"},{"model": "llw:block/chalk5"},{"model": "llw:block/chalk6"}
+   ,{"model": "llw:block/chalk7"}
+       ]
+  }
+}

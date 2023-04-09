@@ -172,6 +172,8 @@ public class InitItems {
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1).defaultDurability(120)));
     public static final RegistryObject<Item> BLUE_CHALK = ITEMS.register("blue_chalk",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1).defaultDurability(120)));
+    public static final RegistryObject<Item> GOLDEN_CHALK = ITEMS.register("golden_chalk",
+            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1).defaultDurability(120)));
     public static final RegistryObject<Item> INKWELL = ITEMS.register("inkwell",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1).defaultDurability(120)));
     public static final RegistryObject<Item> GOLDEN_CAP = ITEMS.register("golden_cap",

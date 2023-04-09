@@ -17,6 +17,7 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.sanberdir_rezolv.llw.entity.ModEntityTypes;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 import net.sanberdir_rezolv.llw.init.InitItems;
 import net.sanberdir_rezolv.llw.init.sound.InitSounds;
@@ -56,6 +57,7 @@ public class LLW
         ITEMS.register(modEventBus);
         InitItems.register(modEventBus);
 
+        ModEntityTypes.register(modEventBus);
         // Регистрация звуков (Не трогать!)
         InitSounds.register(modEventBus);
 
@@ -115,7 +117,10 @@ public class LLW
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.LARGE_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.MEDIUM_PRIMORDIAL_FIRE_BUD.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.PRIMORDIAL_FIRE_CLUSTER.get(), RenderType.cutout());
-
+        // Мел
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.CHALK_BLOCK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.BLUE_CHALK_BLOCK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.GOLDEN_CHALK_BLOCK.get(), RenderType.cutout());
 
     }
 
