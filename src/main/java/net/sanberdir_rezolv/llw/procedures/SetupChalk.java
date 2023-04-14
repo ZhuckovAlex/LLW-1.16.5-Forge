@@ -42,6 +42,7 @@ public class SetupChalk {
         if (InitItems.CHALK.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()
                 && !(InitBlocks.CHALK_BLOCK.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock())
                 && !(InitBlocks.BLUE_CHALK_BLOCK.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock())
+                && !(InitBlocks.RED_CHALK_BLOCK.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock())
                 && !(InitBlocks.GOLDEN_CHALK_BLOCK.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock())
                 && world.isEmptyBlock(new BlockPos(x, y + 1, z))) {
             {

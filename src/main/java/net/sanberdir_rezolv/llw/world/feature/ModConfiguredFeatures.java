@@ -85,6 +85,11 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> CINNABAR_ORE = CONFIGURED_FEATURES.register("cinnabar_ore",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(CINNABAR_ORES.get(),3)));
 
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> MALACHITE_ORES = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, InitBlocks.MALACHITE_ORE.get().defaultBlockState())));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> MALACHITE_ORE = CONFIGURED_FEATURES.register("malachite_ore",
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(MALACHITE_ORES.get(),12)));
+
     //Жеоды
     public static final RegistryObject<ConfiguredFeature<?, ?>> PRIMORDIAL_FIRE_GEODE = CONFIGURED_FEATURES.register("primordial_fire_geode",
             () -> new ConfiguredFeature<>(Feature.GEODE,

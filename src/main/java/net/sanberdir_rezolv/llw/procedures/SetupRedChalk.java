@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 @Mod.EventBusSubscriber
-public class SetupGoldenChalk {
+public class SetupRedChalk {
     @SubscribeEvent
     public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
         if (event.getHand() != event.getEntity().getUsedItemHand())
@@ -36,7 +36,7 @@ public class SetupGoldenChalk {
     private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
         if (entity == null)
             return;
-        if (InitItems.GOLDEN_CHALK.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()
+        if (InitItems.RED_CHALK.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()
                 && !(InitBlocks.CHALK_BLOCK.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock())
                 && !(InitBlocks.BLUE_CHALK_BLOCK.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock())
                 && !(InitBlocks.RED_CHALK_BLOCK.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock())
@@ -49,7 +49,7 @@ public class SetupGoldenChalk {
                     _ist.setDamageValue(0);
                 }
             }
-            world.setBlock(new BlockPos(x, y + 1, z), InitBlocks.GOLDEN_CHALK_BLOCK.get().defaultBlockState(), 3);
+            world.setBlock(new BlockPos(x, y + 1, z), InitBlocks.RED_CHALK_BLOCK.get().defaultBlockState(), 3);
             if (world instanceof Level _level) {
                 if (!_level.isClientSide()) {
                     _level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.stone.place")), SoundSource.BLOCKS, 1, 1);

@@ -17,6 +17,10 @@ public class ModPlacedFeatures {
             () -> new PlacedFeature(ModConfiguredFeatures.CINNABAR_ORE.getHolder().get(),
                     commonOrePlacement(2, // VeinsPerChunk
                             HeightRangePlacement.triangle(VerticalAnchor.absolute(15), VerticalAnchor.absolute(85)))));
+    public static final RegistryObject<PlacedFeature> MALACHITE_ORE_PLACED = PLACED_FEATURES.register("malachite_ore_placed",
+            () -> new PlacedFeature(ModConfiguredFeatures.MALACHITE_ORE.getHolder().get(),
+                    commonOrePlacement(12, // VeinsPerChunk
+                            HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.belowTop(45)))));
 
     // Цветы
     public static final RegistryObject<PlacedFeature> SUNFLOWER_PLACED = PLACED_FEATURES.register("sunflower_placed",

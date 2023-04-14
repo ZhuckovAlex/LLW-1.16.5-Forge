@@ -520,7 +520,10 @@ public class InitBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).sound(SoundType.BONE_BLOCK)), ModCreativeModeTab.LLW_BLOCKS);
     // Малахит
-    public static final RegistryObject<Block> MALACHITE = registerBlock("malachite",
+    public static final RegistryObject<Block> MALACHITE_BLOCK = registerBlock("malachite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f).sound(SoundType.BONE_BLOCK)), ModCreativeModeTab.LLW_BLOCKS);
+    public static final RegistryObject<Block> MALACHITE_ORE = registerBlock("malachite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).sound(SoundType.BONE_BLOCK)), ModCreativeModeTab.LLW_BLOCKS);
 
@@ -589,6 +592,9 @@ public class InitBlocks {
             () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .noCollission().requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion()));
     public static final RegistryObject<Block> BLUE_CHALK_BLOCK = registerBlockWithoutBlockItem("blue_chalk_block",
+            () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .noCollission().requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> RED_CHALK_BLOCK = registerBlockWithoutBlockItem("red_chalk_block",
             () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .noCollission().requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion()));
     public static final RegistryObject<Block> GOLDEN_CHALK_BLOCK = registerBlockWithoutBlockItem("golden_chalk_block",

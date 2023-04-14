@@ -121,6 +121,7 @@ public class LLW
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.CHALK_BLOCK.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.BLUE_CHALK_BLOCK.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.GOLDEN_CHALK_BLOCK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(InitBlocks.RED_CHALK_BLOCK.get(), RenderType.cutout());
 
     }
 

@@ -3,7 +3,10 @@
     "":[
     {"model": "llw:block/chalk1"},{"model": "llw:block/chalk2"},{"model": "llw:block/chalk3"}
    ,{"model": "llw:block/chalk4"},{"model": "llw:block/chalk5"},{"model": "llw:block/chalk6"}
-   ,{"model": "llw:block/chalk7"}
+   ,{"model": "llw:block/chalk7"},{"model": "llw:block/chalk7"},{"model": "llw:block/chalk8"}
+   ,{"model": "llw:block/chalk9"},{"model": "llw:block/chalk10"},{"model": "llw:block/chalk11"}
+   ,{"model": "llw:block/chalk12"},{"model": "llw:block/chalk13"},{"model": "llw:block/chalk14"}
+   ,{"model": "llw:block/chalk15"},{"model": "llw:block/chalk16"}
        ]
   }
 }

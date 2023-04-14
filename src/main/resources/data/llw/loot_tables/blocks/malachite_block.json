@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llw:malachite"
+          "name": "llw:malachite_block"
         }
       ],
       "conditions": [

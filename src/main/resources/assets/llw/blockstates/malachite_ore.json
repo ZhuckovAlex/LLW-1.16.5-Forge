@@ -2,7 +2,7 @@
   "variants": {
     "":
     [
-      {"model": "llw:block/malachite"}
+      {"model": "llw:block/malachite_ore"}
     ]
   }
 }

@@ -26,7 +26,6 @@
     "llw:megalit_bricks",
     "llw:crucible",
     "llw:rodonite",
-    "llw:malachite",
     "llw:moon_tear_obsidian_ore",
     "llw:moon_tear_block",
     "llw:cinnabar_ore",
@@ -58,7 +57,9 @@
     "llw:cracked_ancient_bricks_stairs",
     "llw:ancient_pillar",
     "llw:ancient_stone_fence",
-    "llw:ancient_bricks_fence"
+    "llw:ancient_bricks_fence",
+    "llw:malachite_ore",
+    "llw:malachite_block"
 
   ]
 }
