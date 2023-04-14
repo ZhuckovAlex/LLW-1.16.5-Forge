@@ -88,7 +88,7 @@ public class ModConfiguredFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> MALACHITE_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, InitBlocks.MALACHITE_ORE.get().defaultBlockState())));
     public static final RegistryObject<ConfiguredFeature<?, ?>> MALACHITE_ORE = CONFIGURED_FEATURES.register("malachite_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(MALACHITE_ORES.get(),12)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(MALACHITE_ORES.get(),6)));
 
     //Жеоды
     public static final RegistryObject<ConfiguredFeature<?, ?>> PRIMORDIAL_FIRE_GEODE = CONFIGURED_FEATURES.register("primordial_fire_geode",
