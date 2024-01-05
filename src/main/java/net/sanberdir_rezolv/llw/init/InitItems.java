@@ -147,7 +147,7 @@ public class InitItems {
 
     // Дневник
     public static final RegistryObject<Item> MAGIC_BOOK = ITEMS.register("magic_book",
-            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
+            () -> new MagicBook( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
 
     // Простые предметы
     public static final RegistryObject<Item> VERMILION = ITEMS.register("vermilion",
@@ -177,6 +177,8 @@ public class InitItems {
     public static final RegistryObject<Item> GOLDEN_CHALK = ITEMS.register("golden_chalk",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1).defaultDurability(120)));
     public static final RegistryObject<Item> RAW_MALACHITE = ITEMS.register("raw_malachite",
+            () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
+    public static final RegistryObject<Item> MALACHITE = ITEMS.register("malachite",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS)));
     public static final RegistryObject<Item> INKWELL = ITEMS.register("inkwell",
             () -> new Item( new Item.Properties().tab(ModCreativeModeTab.LLW_ITEMS).stacksTo(1).defaultDurability(120)));

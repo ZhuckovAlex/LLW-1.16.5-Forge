@@ -1,0 +1,75 @@
+{
+  "temperature": 0.7,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 4969708,
+    "fog_color": 8700631,
+    "water_color": 6487804,
+    "water_fog_color": 2619644,
+    "grass_color": 1625465,
+    "foliage_color": 2752418
+  },
+  "spawners": {
+    "water_creature": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 2,
+        "minCount": 0,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:bat",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 7
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon",
+      "minecraft:cave_extra_underground"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:fancy_oak_bees_002",
+      "minecraft:disk_grass",
+      "minecraft:grass_bonemeal",
+      "minecraft:patch_grass_plain",
+      "minecraft:sculk_patch_ancient_city",
+      "minecraft:patch_sugar_cane"
+    ],
+    [
+      "minecraft:ore_gold",
+      "minecraft:ore_copper",
+      "minecraft:ore_diamond",
+      "minecraft:ore_emerald",
+      "minecraft:ore_magma",
+      "minecraft:ore_lapis",
+      "minecraft:ore_redstone",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_gravel",
+      "minecraft:ore_tuff"
+    ],
+    [
+      "minecraft:flower_plains",
+      "llw:elengar_placed"
+    ]
+  ]
+}

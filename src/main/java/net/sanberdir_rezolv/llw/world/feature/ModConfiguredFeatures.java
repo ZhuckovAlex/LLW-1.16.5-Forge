@@ -13,10 +13,13 @@ import net.minecraft.world.level.levelgen.GeodeCrackSettings;
 import net.minecraft.world.level.levelgen.GeodeLayerSettings;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.*;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,6 +28,7 @@ import net.sanberdir_rezolv.llw.LLW;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 
 import java.util.List;
+import java.util.OptionalInt;
 import java.util.function.Supplier;
 
 public class ModConfiguredFeatures {
@@ -59,15 +63,23 @@ public class ModConfiguredFeatures {
                             BlockStateProvider.simple(InitBlocks.DARK_BIRCH_LEAVES.get()),
                             new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
                             new TwoLayersFeatureSize(1, 0, 2)).build()));
+
+
     // Эленгар
     public static final RegistryObject<ConfiguredFeature<?, ?>> ELENGAR =
             CONFIGURED_FEATURES.register("elengar", () ->
-                    new ConfiguredFeature<>(Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                            BlockStateProvider.simple(InitBlocks.ELENGAR_LOG.get()),
-                            new StraightTrunkPlacer(5, 6, 3),
-                            BlockStateProvider.simple(InitBlocks.ELENGAR_LEAVES.get()),
-                            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
-                            new TwoLayersFeatureSize(1, 0, 2)).build()));
+                    new ConfiguredFeature<>(Feature.TREE, createFancyOak().build()));
+    private static TreeConfiguration.TreeConfigurationBuilder createFancyOak() {
+        return (new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(InitBlocks.ELENGAR_LOG.get()),
+                new FancyTrunkPlacer(3, 11, 0), BlockStateProvider.simple(InitBlocks.ELENGAR_LEAVES.get())
+                , new FancyFoliagePlacer(ConstantInt.of(2), ConstantInt.of(4), 4),
+                new TwoLayersFeatureSize(0, 0, 0, OptionalInt.of(4)))).ignoreVines();
+    }
+    public static final RegistryObject<ConfiguredFeature<?, ?>> ELENGAR_SPAWN =
+            CONFIGURED_FEATURES.register("elengar_spawn", () -> new ConfiguredFeature<>(Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(new WeightedPlacedFeature(
+                            ModPlacedFeatures.ELENGAR_CHECKED.getHolder().get(),
+                            0.5F)), ModPlacedFeatures.ELENGAR_CHECKED.getHolder().get())));
 
     // Мирталий
     public static final RegistryObject<ConfiguredFeature<?, ?>> MIRTALIY =

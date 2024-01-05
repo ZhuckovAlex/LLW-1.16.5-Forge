@@ -524,8 +524,8 @@ public class InitBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).sound(SoundType.BONE_BLOCK)), ModCreativeModeTab.LLW_BLOCKS);
     public static final RegistryObject<Block> MALACHITE_ORE = registerBlock("malachite_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f).sound(SoundType.BONE_BLOCK)), ModCreativeModeTab.LLW_BLOCKS);
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f).sound(SoundType.BONE_BLOCK), UniformInt.of(4, 6)), ModCreativeModeTab.LLW_BLOCKS);
 
     // Скопление первородного огня
     public static final RegistryObject<Block> ACCUMULATION_OF_PRIMORDIAL_FIRE = registerBlock("accumulation_of_primordial_fire",

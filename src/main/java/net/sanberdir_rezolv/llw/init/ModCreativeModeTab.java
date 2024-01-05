@@ -2,7 +2,6 @@ package net.sanberdir_rezolv.llw.init;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Blocks;
 
 public class ModCreativeModeTab {
 

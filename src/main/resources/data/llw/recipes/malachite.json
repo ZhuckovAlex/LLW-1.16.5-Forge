@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "llw:malachite_block"
+    }
+  ],
+  "result": {
+    "item": "llw:malachite",
+    "count": 9
+  }
+}

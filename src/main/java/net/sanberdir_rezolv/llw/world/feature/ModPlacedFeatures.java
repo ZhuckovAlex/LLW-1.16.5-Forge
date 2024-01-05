@@ -1,12 +1,14 @@
 package net.sanberdir_rezolv.llw.world.feature;
 import net.minecraft.core.Registry;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.placement.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.sanberdir_rezolv.llw.LLW;
+import net.sanberdir_rezolv.llw.init.InitBlocks;
 
 import java.util.List;
 public class ModPlacedFeatures {
@@ -49,6 +51,14 @@ public class ModPlacedFeatures {
                     RarityFilter.onAverageOnceEvery(130), InSquarePlacement.spread(),
                     HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6), VerticalAnchor.absolute(50)),
                     BiomeFilter.biome())));
+
+    public static final RegistryObject<PlacedFeature> ELENGAR_CHECKED = PLACED_FEATURES.register("elengar_checked",
+            () -> new PlacedFeature(ModConfiguredFeatures.ELENGAR.getHolder().get(),
+                    List.of(PlacementUtils.filteredByBlockSurvival(InitBlocks.ELENGAR_SAPLING.get()))));
+
+    public static final RegistryObject<PlacedFeature> ELENGAR_PLACED = PLACED_FEATURES.register("elengar_placed",
+            () -> new PlacedFeature(ModConfiguredFeatures.ELENGAR_SPAWN.getHolder().get(), VegetationPlacements.treePlacement(
+                    PlacementUtils.countExtra(3, 0.1f, 2))));
 
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
         return List.of(p_195347_, InSquarePlacement.spread(), p_195348_, BiomeFilter.biome());

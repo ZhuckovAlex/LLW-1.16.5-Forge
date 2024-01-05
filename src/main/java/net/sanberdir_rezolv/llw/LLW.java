@@ -1,10 +1,7 @@
 package net.sanberdir_rezolv.llw;
 
-import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,16 +12,18 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.sanberdir_rezolv.llw.entity.ModEntityTypes;
 import net.sanberdir_rezolv.llw.init.InitBlocks;
 import net.sanberdir_rezolv.llw.init.InitItems;
+import net.sanberdir_rezolv.llw.init.screen.ModMenuTypes;
 import net.sanberdir_rezolv.llw.init.sound.InitSounds;
 
+import net.sanberdir_rezolv.llw.world.biome.ModBiomeInitializer;
+import net.sanberdir_rezolv.llw.world.biome.ModBiomeProvider;
 import net.sanberdir_rezolv.llw.world.feature.ModConfiguredFeatures;
 import net.sanberdir_rezolv.llw.world.feature.ModPlacedFeatures;
-import org.slf4j.Logger;
+import software.bernie.geckolib3.GeckoLib;
+import terrablender.api.Regions;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(LLW.MODID)
@@ -33,11 +32,7 @@ public class LLW
     // ID Мода (Не трогать!)
     public static final String MODID = "llw";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
-    // Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+
 
     // Образец создания блока в главном классе
     // public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)));
@@ -50,18 +45,20 @@ public class LLW
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+        ModMenuTypes.register(modEventBus);
         // Регистрация блоков (Не трогать!)
-        BLOCKS.register(modEventBus);
+        ModBiomeInitializer.BIOMES.register(modEventBus);
+        ModBiomeInitializer.registerBiomes();
         InitBlocks.register(modEventBus);
         // Регистрация предметов (Не трогать!)
-        ITEMS.register(modEventBus);
+
         InitItems.register(modEventBus);
 
         ModEntityTypes.register(modEventBus);
         // Регистрация звуков (Не трогать!)
         InitSounds.register(modEventBus);
 
-
+        GeckoLib.initialize();
         // Регистрация объектов (Не трогать!)
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);
@@ -73,6 +70,10 @@ public class LLW
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
+        event.enqueueWork(() -> {
+            Regions.register(new ModBiomeProvider());
+
+        });
         // Добавление прозрачного слоя
         // Саженцы
         ItemBlockRenderTypes.setRenderLayer(InitBlocks.PURE_FRUIT_SEEDS.get(), RenderType.cutout());
@@ -129,8 +130,7 @@ public class LLW
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
-        // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
